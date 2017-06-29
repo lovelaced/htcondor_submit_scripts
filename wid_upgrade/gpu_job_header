@@ -1,0 +1,9 @@
+job                     = bandwidthTest
+universe                = vanilla
+executable              = $(job)
+should_transfer_files   = YES
+when_to_transfer_output = ON_EXIT
+output                  = out
+log                     = log
++IsDataTransferJob      = True
+request_gpu            = 1

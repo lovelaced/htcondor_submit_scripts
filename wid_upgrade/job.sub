@@ -1,0 +1,245 @@
+job                     = job.sh
+universe                = vanilla
+executable              = $(job)
+should_transfer_files   = YES
+when_to_transfer_output = ON_EXIT
+output                  = out
+log                     = log
++IsDataTransferJob      = True
+
+requirements = True ) && ( Machine == "e001.chtc.wisc.edu" && split(Target.CondorVersion)[1] == "8.5.3" && split(Target.CondorVersion)[6] == "357347" ) || ( False
+initialdir = e001.chtc.wisc.edu
+queue
+
+requirements = True ) && ( Machine == "e004.chtc.wisc.edu" && split(Target.CondorVersion)[1] == "8.5.3" && split(Target.CondorVersion)[6] == "357347" ) || ( False
+initialdir = e004.chtc.wisc.edu
+queue
+
+requirements = True ) && ( Machine == "e014.chtc.wisc.edu" && split(Target.CondorVersion)[1] == "8.5.3" && split(Target.CondorVersion)[6] == "357347" ) || ( False
+initialdir = e014.chtc.wisc.edu
+queue
+
+requirements = True ) && ( Machine == "e015.chtc.wisc.edu" && split(Target.CondorVersion)[1] == "8.5.3" && split(Target.CondorVersion)[6] == "357347" ) || ( False
+initialdir = e015.chtc.wisc.edu
+queue
+
+requirements = True ) && ( Machine == "e017.chtc.wisc.edu" && split(Target.CondorVersion)[1] == "8.5.3" && split(Target.CondorVersion)[6] == "357347" ) || ( False
+initialdir = e017.chtc.wisc.edu
+queue
+
+requirements = True ) && ( Machine == "e019.chtc.wisc.edu" && split(Target.CondorVersion)[1] == "8.5.3" && split(Target.CondorVersion)[6] == "357347" ) || ( False
+initialdir = e019.chtc.wisc.edu
+queue
+
+requirements = True ) && ( Machine == "e020.chtc.wisc.edu" && split(Target.CondorVersion)[1] == "8.5.3" && split(Target.CondorVersion)[6] == "357347" ) || ( False
+initialdir = e020.chtc.wisc.edu
+queue
+
+requirements = True ) && ( Machine == "e021.chtc.wisc.edu" && split(Target.CondorVersion)[1] == "8.5.3" && split(Target.CondorVersion)[6] == "357347" ) || ( False
+initialdir = e021.chtc.wisc.edu
+queue
+
+requirements = True ) && ( Machine == "e033.chtc.wisc.edu" && split(Target.CondorVersion)[1] == "8.5.3" && split(Target.CondorVersion)[6] == "357347" ) || ( False
+initialdir = e033.chtc.wisc.edu
+queue
+
+requirements = True ) && ( Machine == "e091.chtc.wisc.edu" && split(Target.CondorVersion)[1] == "8.5.3" && split(Target.CondorVersion)[6] == "357347" ) || ( False
+initialdir = e091.chtc.wisc.edu
+queue
+
+requirements = True ) && ( Machine == "e092.chtc.wisc.edu" && split(Target.CondorVersion)[1] == "8.5.3" && split(Target.CondorVersion)[6] == "357347" ) || ( False
+initialdir = e092.chtc.wisc.edu
+queue
+
+requirements = True ) && ( Machine == "e093.chtc.wisc.edu" && split(Target.CondorVersion)[1] == "8.5.3" && split(Target.CondorVersion)[6] == "357347" ) || ( False
+initialdir = e093.chtc.wisc.edu
+queue
+
+requirements = True ) && ( Machine == "e094.chtc.wisc.edu" && split(Target.CondorVersion)[1] == "8.5.3" && split(Target.CondorVersion)[6] == "357347" ) || ( False
+initialdir = e094.chtc.wisc.edu
+queue
+
+requirements = True ) && ( Machine == "e095.chtc.wisc.edu" && split(Target.CondorVersion)[1] == "8.5.3" && split(Target.CondorVersion)[6] == "357347" ) || ( False
+initialdir = e095.chtc.wisc.edu
+queue
+
+requirements = True ) && ( Machine == "e096.chtc.wisc.edu" && split(Target.CondorVersion)[1] == "8.5.3" && split(Target.CondorVersion)[6] == "357347" ) || ( False
+initialdir = e096.chtc.wisc.edu
+queue
+
+requirements = True ) && ( Machine == "e097.chtc.wisc.edu" && split(Target.CondorVersion)[1] == "8.5.3" && split(Target.CondorVersion)[6] == "357347" ) || ( False
+initialdir = e097.chtc.wisc.edu
+queue
+
+requirements = True ) && ( Machine == "e098.chtc.wisc.edu" && split(Target.CondorVersion)[1] == "8.5.3" && split(Target.CondorVersion)[6] == "357347" ) || ( False
+initialdir = e098.chtc.wisc.edu
+queue
+
+requirements = True ) && ( Machine == "e099.chtc.wisc.edu" && split(Target.CondorVersion)[1] == "8.5.3" && split(Target.CondorVersion)[6] == "357347" ) || ( False
+initialdir = e099.chtc.wisc.edu
+queue
+
+requirements = True ) && ( Machine == "e100.chtc.wisc.edu" && split(Target.CondorVersion)[1] == "8.5.3" && split(Target.CondorVersion)[6] == "357347" ) || ( False
+initialdir = e100.chtc.wisc.edu
+queue
+
+requirements = True ) && ( Machine == "e101.chtc.wisc.edu" && split(Target.CondorVersion)[1] == "8.5.3" && split(Target.CondorVersion)[6] == "357347" ) || ( False
+initialdir = e101.chtc.wisc.edu
+queue
+
+requirements = True ) && ( Machine == "e102.chtc.wisc.edu" && split(Target.CondorVersion)[1] == "8.5.3" && split(Target.CondorVersion)[6] == "357347" ) || ( False
+initialdir = e102.chtc.wisc.edu
+queue
+
+requirements = True ) && ( Machine == "e103.chtc.wisc.edu" && split(Target.CondorVersion)[1] == "8.5.3" && split(Target.CondorVersion)[6] == "357347" ) || ( False
+initialdir = e103.chtc.wisc.edu
+queue
+
+requirements = True ) && ( Machine == "e104.chtc.wisc.edu" && split(Target.CondorVersion)[1] == "8.5.3" && split(Target.CondorVersion)[6] == "357347" ) || ( False
+initialdir = e104.chtc.wisc.edu
+queue
+
+requirements = True ) && ( Machine == "e105.chtc.wisc.edu" && split(Target.CondorVersion)[1] == "8.5.3" && split(Target.CondorVersion)[6] == "357347" ) || ( False
+initialdir = e105.chtc.wisc.edu
+queue
+
+requirements = True ) && ( Machine == "e106.chtc.wisc.edu" && split(Target.CondorVersion)[1] == "8.5.3" && split(Target.CondorVersion)[6] == "357347" ) || ( False
+initialdir = e106.chtc.wisc.edu
+queue
+
+requirements = True ) && ( Machine == "e107.chtc.wisc.edu" && split(Target.CondorVersion)[1] == "8.5.3" && split(Target.CondorVersion)[6] == "357347" ) || ( False
+initialdir = e107.chtc.wisc.edu
+queue
+
+requirements = True ) && ( Machine == "e108.chtc.wisc.edu" && split(Target.CondorVersion)[1] == "8.5.3" && split(Target.CondorVersion)[6] == "357347" ) || ( False
+initialdir = e108.chtc.wisc.edu
+queue
+
+requirements = True ) && ( Machine == "e109.chtc.wisc.edu" && split(Target.CondorVersion)[1] == "8.5.3" && split(Target.CondorVersion)[6] == "357347" ) || ( False
+initialdir = e109.chtc.wisc.edu
+queue
+
+requirements = True ) && ( Machine == "e110.chtc.wisc.edu" && split(Target.CondorVersion)[1] == "8.5.3" && split(Target.CondorVersion)[6] == "357347" ) || ( False
+initialdir = e110.chtc.wisc.edu
+queue
+
+requirements = True ) && ( Machine == "e121.chtc.wisc.edu" && split(Target.CondorVersion)[1] == "8.5.3" && split(Target.CondorVersion)[6] == "357347" ) || ( False
+initialdir = e121.chtc.wisc.edu
+queue
+
+requirements = True ) && ( Machine == "e122.chtc.wisc.edu" && split(Target.CondorVersion)[1] == "8.5.3" && split(Target.CondorVersion)[6] == "357347" ) || ( False
+initialdir = e122.chtc.wisc.edu
+queue
+
+requirements = True ) && ( Machine == "e123.chtc.wisc.edu" && split(Target.CondorVersion)[1] == "8.5.3" && split(Target.CondorVersion)[6] == "357347" ) || ( False
+initialdir = e123.chtc.wisc.edu
+queue
+
+requirements = True ) && ( Machine == "e124.chtc.wisc.edu" && split(Target.CondorVersion)[1] == "8.5.3" && split(Target.CondorVersion)[6] == "357347" ) || ( False
+initialdir = e124.chtc.wisc.edu
+queue
+
+requirements = True ) && ( Machine == "e125.chtc.wisc.edu" && split(Target.CondorVersion)[1] == "8.5.3" && split(Target.CondorVersion)[6] == "357347" ) || ( False
+initialdir = e125.chtc.wisc.edu
+queue
+
+requirements = True ) && ( Machine == "e126.chtc.wisc.edu" && split(Target.CondorVersion)[1] == "8.5.3" && split(Target.CondorVersion)[6] == "357347" ) || ( False
+initialdir = e126.chtc.wisc.edu
+queue
+
+requirements = True ) && ( Machine == "e127.chtc.wisc.edu" && split(Target.CondorVersion)[1] == "8.5.3" && split(Target.CondorVersion)[6] == "357347" ) || ( False
+initialdir = e127.chtc.wisc.edu
+queue
+
+requirements = True ) && ( Machine == "e128.chtc.wisc.edu" && split(Target.CondorVersion)[1] == "8.5.3" && split(Target.CondorVersion)[6] == "357347" ) || ( False
+initialdir = e128.chtc.wisc.edu
+queue
+
+requirements = True ) && ( Machine == "e129.chtc.wisc.edu" && split(Target.CondorVersion)[1] == "8.5.3" && split(Target.CondorVersion)[6] == "357347" ) || ( False
+initialdir = e129.chtc.wisc.edu
+queue
+
+requirements = True ) && ( Machine == "e130.chtc.wisc.edu" && split(Target.CondorVersion)[1] == "8.5.3" && split(Target.CondorVersion)[6] == "357347" ) || ( False
+initialdir = e130.chtc.wisc.edu
+queue
+
+requirements = True ) && ( Machine == "e131.chtc.wisc.edu" && split(Target.CondorVersion)[1] == "8.5.3" && split(Target.CondorVersion)[6] == "357347" ) || ( False
+initialdir = e131.chtc.wisc.edu
+queue
+
+requirements = True ) && ( Machine == "e133.chtc.wisc.edu" && split(Target.CondorVersion)[1] == "8.5.3" && split(Target.CondorVersion)[6] == "357347" ) || ( False
+initialdir = e133.chtc.wisc.edu
+queue
+
+requirements = True ) && ( Machine == "e134.chtc.wisc.edu" && split(Target.CondorVersion)[1] == "8.5.3" && split(Target.CondorVersion)[6] == "357347" ) || ( False
+initialdir = e134.chtc.wisc.edu
+queue
+
+requirements = True ) && ( Machine == "e135.chtc.wisc.edu" && split(Target.CondorVersion)[1] == "8.5.3" && split(Target.CondorVersion)[6] == "357347" ) || ( False
+initialdir = e135.chtc.wisc.edu
+queue
+
+requirements = True ) && ( Machine == "e136.chtc.wisc.edu" && split(Target.CondorVersion)[1] == "8.5.3" && split(Target.CondorVersion)[6] == "357347" ) || ( False
+initialdir = e136.chtc.wisc.edu
+queue
+
+requirements = True ) && ( Machine == "e137.chtc.wisc.edu" && split(Target.CondorVersion)[1] == "8.5.3" && split(Target.CondorVersion)[6] == "357347" ) || ( False
+initialdir = e137.chtc.wisc.edu
+queue
+
+requirements = True ) && ( Machine == "e138.chtc.wisc.edu" && split(Target.CondorVersion)[1] == "8.5.3" && split(Target.CondorVersion)[6] == "357347" ) || ( False
+initialdir = e138.chtc.wisc.edu
+queue
+
+requirements = True ) && ( Machine == "e139.chtc.wisc.edu" && split(Target.CondorVersion)[1] == "8.5.3" && split(Target.CondorVersion)[6] == "357347" ) || ( False
+initialdir = e139.chtc.wisc.edu
+queue
+
+requirements = True ) && ( Machine == "e140.chtc.wisc.edu" && split(Target.CondorVersion)[1] == "8.5.3" && split(Target.CondorVersion)[6] == "357347" ) || ( False
+initialdir = e140.chtc.wisc.edu
+queue
+
+requirements = True ) && ( Machine == "e141.chtc.wisc.edu" && split(Target.CondorVersion)[1] == "8.5.3" && split(Target.CondorVersion)[6] == "357347" ) || ( False
+initialdir = e141.chtc.wisc.edu
+queue
+
+requirements = True ) && ( Machine == "e142.chtc.wisc.edu" && split(Target.CondorVersion)[1] == "8.5.3" && split(Target.CondorVersion)[6] == "357347" ) || ( False
+initialdir = e142.chtc.wisc.edu
+queue
+
+requirements = True ) && ( Machine == "e143.chtc.wisc.edu" && split(Target.CondorVersion)[1] == "8.5.3" && split(Target.CondorVersion)[6] == "357347" ) || ( False
+initialdir = e143.chtc.wisc.edu
+queue
+
+requirements = True ) && ( Machine == "e144.chtc.wisc.edu" && split(Target.CondorVersion)[1] == "8.5.3" && split(Target.CondorVersion)[6] == "357347" ) || ( False
+initialdir = e144.chtc.wisc.edu
+queue
+
+requirements = True ) && ( Machine == "e145.chtc.wisc.edu" && split(Target.CondorVersion)[1] == "8.5.3" && split(Target.CondorVersion)[6] == "357347" ) || ( False
+initialdir = e145.chtc.wisc.edu
+queue
+
+requirements = True ) && ( Machine == "e146.chtc.wisc.edu" && split(Target.CondorVersion)[1] == "8.5.3" && split(Target.CondorVersion)[6] == "357347" ) || ( False
+initialdir = e146.chtc.wisc.edu
+queue
+
+requirements = True ) && ( Machine == "e147.chtc.wisc.edu" && split(Target.CondorVersion)[1] == "8.5.3" && split(Target.CondorVersion)[6] == "357347" ) || ( False
+initialdir = e147.chtc.wisc.edu
+queue
+
+requirements = True ) && ( Machine == "e148.chtc.wisc.edu" && split(Target.CondorVersion)[1] == "8.5.3" && split(Target.CondorVersion)[6] == "357347" ) || ( False
+initialdir = e148.chtc.wisc.edu
+queue
+
+requirements = True ) && ( Machine == "e149.chtc.wisc.edu" && split(Target.CondorVersion)[1] == "8.5.3" && split(Target.CondorVersion)[6] == "357347" ) || ( False
+initialdir = e149.chtc.wisc.edu
+queue
+
+requirements = True ) && ( Machine == "gpu-2.chtc.wisc.edu" && split(Target.CondorVersion)[1] == "8.5.3" && split(Target.CondorVersion)[6] == "357347" ) || ( False
+initialdir = gpu-2.chtc.wisc.edu
+queue
+
+requirements = True ) && ( Machine == "wid-003.chtc.wisc.edu" && split(Target.CondorVersion)[1] == "8.5.3" && split(Target.CondorVersion)[6] == "357347" ) || ( False
+initialdir = wid-003.chtc.wisc.edu
+queue
+

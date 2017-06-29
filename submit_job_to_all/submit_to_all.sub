@@ -1,0 +1,1981 @@
+job                     = condorversion.sh
+universe                = vanilla
+executable              = $(job)
+should_transfer_files   = YES
+when_to_transfer_output = ON_EXIT
+output                  = out
+log                     = log
++IsDataTransferJob      = True
+
+requirements = True ) && (OpSysMajorVer == 6 || OpSysMajorVer == 7) && ( Machine == "atlas08.chtc.wisc.edu" ) || ( False
+initialdir = atlas08.chtc.wisc.edu
+queue
+
+requirements = True ) && (OpSysMajorVer == 6 || OpSysMajorVer == 7) && ( Machine == "atlas09.chtc.wisc.edu" ) || ( False
+initialdir = atlas09.chtc.wisc.edu
+queue
+
+requirements = True ) && (OpSysMajorVer == 6 || OpSysMajorVer == 7) && ( Machine == "atlas10.chtc.wisc.edu" ) || ( False
+initialdir = atlas10.chtc.wisc.edu
+queue
+
+requirements = True ) && (OpSysMajorVer == 6 || OpSysMajorVer == 7) && ( Machine == "atlas11.chtc.wisc.edu" ) || ( False
+initialdir = atlas11.chtc.wisc.edu
+queue
+
+requirements = True ) && (OpSysMajorVer == 6 || OpSysMajorVer == 7) && ( Machine == "atlas12.chtc.wisc.edu" ) || ( False
+initialdir = atlas12.chtc.wisc.edu
+queue
+
+requirements = True ) && (OpSysMajorVer == 6 || OpSysMajorVer == 7) && ( Machine == "atlas13.chtc.wisc.edu" ) || ( False
+initialdir = atlas13.chtc.wisc.edu
+queue
+
+requirements = True ) && (OpSysMajorVer == 6 || OpSysMajorVer == 7) && ( Machine == "atlas14.chtc.wisc.edu" ) || ( False
+initialdir = atlas14.chtc.wisc.edu
+queue
+
+requirements = True ) && (OpSysMajorVer == 6 || OpSysMajorVer == 7) && ( Machine == "atlas16.chtc.wisc.edu" ) || ( False
+initialdir = atlas16.chtc.wisc.edu
+queue
+
+requirements = True ) && (OpSysMajorVer == 6 || OpSysMajorVer == 7) && ( Machine == "atlas17.chtc.wisc.edu" ) || ( False
+initialdir = atlas17.chtc.wisc.edu
+queue
+
+requirements = True ) && (OpSysMajorVer == 6 || OpSysMajorVer == 7) && ( Machine == "atlas18.chtc.wisc.edu" ) || ( False
+initialdir = atlas18.chtc.wisc.edu
+queue
+
+requirements = True ) && (OpSysMajorVer == 6 || OpSysMajorVer == 7) && ( Machine == "atlas19.chtc.wisc.edu" ) || ( False
+initialdir = atlas19.chtc.wisc.edu
+queue
+
+requirements = True ) && (OpSysMajorVer == 6 || OpSysMajorVer == 7) && ( Machine == "atlas20.chtc.wisc.edu" ) || ( False
+initialdir = atlas20.chtc.wisc.edu
+queue
+
+requirements = True ) && (OpSysMajorVer == 6 || OpSysMajorVer == 7) && ( Machine == "atlas22.chtc.wisc.edu" ) || ( False
+initialdir = atlas22.chtc.wisc.edu
+queue
+
+requirements = True ) && (OpSysMajorVer == 6 || OpSysMajorVer == 7) && ( Machine == "atlas23.chtc.wisc.edu" ) || ( False
+initialdir = atlas23.chtc.wisc.edu
+queue
+
+requirements = True ) && (OpSysMajorVer == 6 || OpSysMajorVer == 7) && ( Machine == "atlas25.chtc.wisc.edu" ) || ( False
+initialdir = atlas25.chtc.wisc.edu
+queue
+
+requirements = True ) && (OpSysMajorVer == 6 || OpSysMajorVer == 7) && ( Machine == "atlas26.chtc.wisc.edu" ) || ( False
+initialdir = atlas26.chtc.wisc.edu
+queue
+
+requirements = True ) && (OpSysMajorVer == 6 || OpSysMajorVer == 7) && ( Machine == "atlas27.chtc.wisc.edu" ) || ( False
+initialdir = atlas27.chtc.wisc.edu
+queue
+
+requirements = True ) && (OpSysMajorVer == 6 || OpSysMajorVer == 7) && ( Machine == "atlas28.chtc.wisc.edu" ) || ( False
+initialdir = atlas28.chtc.wisc.edu
+queue
+
+requirements = True ) && (OpSysMajorVer == 6 || OpSysMajorVer == 7) && ( Machine == "atlas29.chtc.wisc.edu" ) || ( False
+initialdir = atlas29.chtc.wisc.edu
+queue
+
+requirements = True ) && (OpSysMajorVer == 6 || OpSysMajorVer == 7) && ( Machine == "atlas31.chtc.wisc.edu" ) || ( False
+initialdir = atlas31.chtc.wisc.edu
+queue
+
+requirements = True ) && (OpSysMajorVer == 6 || OpSysMajorVer == 7) && ( Machine == "atlas32.chtc.wisc.edu" ) || ( False
+initialdir = atlas32.chtc.wisc.edu
+queue
+
+requirements = True ) && (OpSysMajorVer == 6 || OpSysMajorVer == 7) && ( Machine == "atlas33.chtc.wisc.edu" ) || ( False
+initialdir = atlas33.chtc.wisc.edu
+queue
+
+requirements = True ) && (OpSysMajorVer == 6 || OpSysMajorVer == 7) && ( Machine == "atlas35.chtc.wisc.edu" ) || ( False
+initialdir = atlas35.chtc.wisc.edu
+queue
+
+requirements = True ) && (OpSysMajorVer == 6 || OpSysMajorVer == 7) && ( Machine == "atlas36.chtc.wisc.edu" ) || ( False
+initialdir = atlas36.chtc.wisc.edu
+queue
+
+requirements = True ) && (OpSysMajorVer == 6 || OpSysMajorVer == 7) && ( Machine == "atlas37.chtc.wisc.edu" ) || ( False
+initialdir = atlas37.chtc.wisc.edu
+queue
+
+requirements = True ) && (OpSysMajorVer == 6 || OpSysMajorVer == 7) && ( Machine == "atlas38.chtc.wisc.edu" ) || ( False
+initialdir = atlas38.chtc.wisc.edu
+queue
+
+requirements = True ) && (OpSysMajorVer == 6 || OpSysMajorVer == 7) && ( Machine == "atlas39.chtc.wisc.edu" ) || ( False
+initialdir = atlas39.chtc.wisc.edu
+queue
+
+requirements = True ) && (OpSysMajorVer == 6 || OpSysMajorVer == 7) && ( Machine == "atlas40.chtc.wisc.edu" ) || ( False
+initialdir = atlas40.chtc.wisc.edu
+queue
+
+requirements = True ) && (OpSysMajorVer == 6 || OpSysMajorVer == 7) && ( Machine == "atlas41.chtc.wisc.edu" ) || ( False
+initialdir = atlas41.chtc.wisc.edu
+queue
+
+requirements = True ) && (OpSysMajorVer == 6 || OpSysMajorVer == 7) && ( Machine == "atlas42.chtc.wisc.edu" ) || ( False
+initialdir = atlas42.chtc.wisc.edu
+queue
+
+requirements = True ) && (OpSysMajorVer == 6 || OpSysMajorVer == 7) && ( Machine == "atlas43.chtc.wisc.edu" ) || ( False
+initialdir = atlas43.chtc.wisc.edu
+queue
+
+requirements = True ) && (OpSysMajorVer == 6 || OpSysMajorVer == 7) && ( Machine == "atlas44.chtc.wisc.edu" ) || ( False
+initialdir = atlas44.chtc.wisc.edu
+queue
+
+requirements = True ) && (OpSysMajorVer == 6 || OpSysMajorVer == 7) && ( Machine == "atlas45.chtc.wisc.edu" ) || ( False
+initialdir = atlas45.chtc.wisc.edu
+queue
+
+requirements = True ) && (OpSysMajorVer == 6 || OpSysMajorVer == 7) && ( Machine == "atlas47.chtc.wisc.edu" ) || ( False
+initialdir = atlas47.chtc.wisc.edu
+queue
+
+requirements = True ) && (OpSysMajorVer == 6 || OpSysMajorVer == 7) && ( Machine == "atlas48.chtc.wisc.edu" ) || ( False
+initialdir = atlas48.chtc.wisc.edu
+queue
+
+requirements = True ) && (OpSysMajorVer == 6 || OpSysMajorVer == 7) && ( Machine == "atlas49.chtc.wisc.edu" ) || ( False
+initialdir = atlas49.chtc.wisc.edu
+queue
+
+requirements = True ) && (OpSysMajorVer == 6 || OpSysMajorVer == 7) && ( Machine == "atlas50.chtc.wisc.edu" ) || ( False
+initialdir = atlas50.chtc.wisc.edu
+queue
+
+requirements = True ) && (OpSysMajorVer == 6 || OpSysMajorVer == 7) && ( Machine == "atlas51.chtc.wisc.edu" ) || ( False
+initialdir = atlas51.chtc.wisc.edu
+queue
+
+requirements = True ) && (OpSysMajorVer == 6 || OpSysMajorVer == 7) && ( Machine == "atlas52.chtc.wisc.edu" ) || ( False
+initialdir = atlas52.chtc.wisc.edu
+queue
+
+requirements = True ) && (OpSysMajorVer == 6 || OpSysMajorVer == 7) && ( Machine == "atlas55.chtc.wisc.edu" ) || ( False
+initialdir = atlas55.chtc.wisc.edu
+queue
+
+requirements = True ) && (OpSysMajorVer == 6 || OpSysMajorVer == 7) && ( Machine == "atlas56.chtc.wisc.edu" ) || ( False
+initialdir = atlas56.chtc.wisc.edu
+queue
+
+requirements = True ) && (OpSysMajorVer == 6 || OpSysMajorVer == 7) && ( Machine == "atlas57.chtc.wisc.edu" ) || ( False
+initialdir = atlas57.chtc.wisc.edu
+queue
+
+requirements = True ) && (OpSysMajorVer == 6 || OpSysMajorVer == 7) && ( Machine == "atlas58.chtc.wisc.edu" ) || ( False
+initialdir = atlas58.chtc.wisc.edu
+queue
+
+requirements = True ) && (OpSysMajorVer == 6 || OpSysMajorVer == 7) && ( Machine == "atlas59.chtc.wisc.edu" ) || ( False
+initialdir = atlas59.chtc.wisc.edu
+queue
+
+requirements = True ) && (OpSysMajorVer == 6 || OpSysMajorVer == 7) && ( Machine == "atlas60.chtc.wisc.edu" ) || ( False
+initialdir = atlas60.chtc.wisc.edu
+queue
+
+requirements = True ) && (OpSysMajorVer == 6 || OpSysMajorVer == 7) && ( Machine == "atlas61.chtc.wisc.edu" ) || ( False
+initialdir = atlas61.chtc.wisc.edu
+queue
+
+requirements = True ) && (OpSysMajorVer == 6 || OpSysMajorVer == 7) && ( Machine == "atlas62.chtc.wisc.edu" ) || ( False
+initialdir = atlas62.chtc.wisc.edu
+queue
+
+requirements = True ) && (OpSysMajorVer == 6 || OpSysMajorVer == 7) && ( Machine == "atlas63.chtc.wisc.edu" ) || ( False
+initialdir = atlas63.chtc.wisc.edu
+queue
+
+requirements = True ) && (OpSysMajorVer == 6 || OpSysMajorVer == 7) && ( Machine == "atlas64.chtc.wisc.edu" ) || ( False
+initialdir = atlas64.chtc.wisc.edu
+queue
+
+requirements = True ) && (OpSysMajorVer == 6 || OpSysMajorVer == 7) && ( Machine == "atlas65.chtc.wisc.edu" ) || ( False
+initialdir = atlas65.chtc.wisc.edu
+queue
+
+requirements = True ) && (OpSysMajorVer == 6 || OpSysMajorVer == 7) && ( Machine == "atlas67.chtc.wisc.edu" ) || ( False
+initialdir = atlas67.chtc.wisc.edu
+queue
+
+requirements = True ) && (OpSysMajorVer == 6 || OpSysMajorVer == 7) && ( Machine == "atlas68.chtc.wisc.edu" ) || ( False
+initialdir = atlas68.chtc.wisc.edu
+queue
+
+requirements = True ) && (OpSysMajorVer == 6 || OpSysMajorVer == 7) && ( Machine == "atlas69.chtc.wisc.edu" ) || ( False
+initialdir = atlas69.chtc.wisc.edu
+queue
+
+requirements = True ) && (OpSysMajorVer == 6 || OpSysMajorVer == 7) && ( Machine == "atlas70.chtc.wisc.edu" ) || ( False
+initialdir = atlas70.chtc.wisc.edu
+queue
+
+requirements = True ) && (OpSysMajorVer == 6 || OpSysMajorVer == 7) && ( Machine == "atlas72.chtc.wisc.edu" ) || ( False
+initialdir = atlas72.chtc.wisc.edu
+queue
+
+requirements = True ) && (OpSysMajorVer == 6 || OpSysMajorVer == 7) && ( Machine == "atlas73.chtc.wisc.edu" ) || ( False
+initialdir = atlas73.chtc.wisc.edu
+queue
+
+requirements = True ) && (OpSysMajorVer == 6 || OpSysMajorVer == 7) && ( Machine == "atlas74.chtc.wisc.edu" ) || ( False
+initialdir = atlas74.chtc.wisc.edu
+queue
+
+requirements = True ) && (OpSysMajorVer == 6 || OpSysMajorVer == 7) && ( Machine == "atlas75.chtc.wisc.edu" ) || ( False
+initialdir = atlas75.chtc.wisc.edu
+queue
+
+requirements = True ) && (OpSysMajorVer == 6 || OpSysMajorVer == 7) && ( Machine == "atlas76.chtc.wisc.edu" ) || ( False
+initialdir = atlas76.chtc.wisc.edu
+queue
+
+requirements = True ) && (OpSysMajorVer == 6 || OpSysMajorVer == 7) && ( Machine == "atlas77.chtc.wisc.edu" ) || ( False
+initialdir = atlas77.chtc.wisc.edu
+queue
+
+requirements = True ) && (OpSysMajorVer == 6 || OpSysMajorVer == 7) && ( Machine == "atlas78.chtc.wisc.edu" ) || ( False
+initialdir = atlas78.chtc.wisc.edu
+queue
+
+requirements = True ) && (OpSysMajorVer == 6 || OpSysMajorVer == 7) && ( Machine == "atlas79.chtc.wisc.edu" ) || ( False
+initialdir = atlas79.chtc.wisc.edu
+queue
+
+requirements = True ) && (OpSysMajorVer == 6 || OpSysMajorVer == 7) && ( Machine == "atlas80.chtc.wisc.edu" ) || ( False
+initialdir = atlas80.chtc.wisc.edu
+queue
+
+requirements = True ) && (OpSysMajorVer == 6 || OpSysMajorVer == 7) && ( Machine == "atlas81.chtc.wisc.edu" ) || ( False
+initialdir = atlas81.chtc.wisc.edu
+queue
+
+requirements = True ) && (OpSysMajorVer == 6 || OpSysMajorVer == 7) && ( Machine == "atlas82.chtc.wisc.edu" ) || ( False
+initialdir = atlas82.chtc.wisc.edu
+queue
+
+requirements = True ) && (OpSysMajorVer == 6 || OpSysMajorVer == 7) && ( Machine == "atlas83.chtc.wisc.edu" ) || ( False
+initialdir = atlas83.chtc.wisc.edu
+queue
+
+requirements = True ) && (OpSysMajorVer == 6 || OpSysMajorVer == 7) && ( Machine == "atlas84.chtc.wisc.edu" ) || ( False
+initialdir = atlas84.chtc.wisc.edu
+queue
+
+requirements = True ) && (OpSysMajorVer == 6 || OpSysMajorVer == 7) && ( Machine == "atlas85.chtc.wisc.edu" ) || ( False
+initialdir = atlas85.chtc.wisc.edu
+queue
+
+requirements = True ) && (OpSysMajorVer == 6 || OpSysMajorVer == 7) && ( Machine == "atlas86.chtc.wisc.edu" ) || ( False
+initialdir = atlas86.chtc.wisc.edu
+queue
+
+requirements = True ) && (OpSysMajorVer == 6 || OpSysMajorVer == 7) && ( Machine == "atlas87.chtc.wisc.edu" ) || ( False
+initialdir = atlas87.chtc.wisc.edu
+queue
+
+requirements = True ) && (OpSysMajorVer == 6 || OpSysMajorVer == 7) && ( Machine == "atlas88.chtc.wisc.edu" ) || ( False
+initialdir = atlas88.chtc.wisc.edu
+queue
+
+requirements = True ) && (OpSysMajorVer == 6 || OpSysMajorVer == 7) && ( Machine == "atlas89.chtc.wisc.edu" ) || ( False
+initialdir = atlas89.chtc.wisc.edu
+queue
+
+requirements = True ) && (OpSysMajorVer == 6 || OpSysMajorVer == 7) && ( Machine == "atlas91.chtc.wisc.edu" ) || ( False
+initialdir = atlas91.chtc.wisc.edu
+queue
+
+requirements = True ) && (OpSysMajorVer == 6 || OpSysMajorVer == 7) && ( Machine == "atlas92.chtc.wisc.edu" ) || ( False
+initialdir = atlas92.chtc.wisc.edu
+queue
+
+requirements = True ) && (OpSysMajorVer == 6 || OpSysMajorVer == 7) && ( Machine == "atlas93.chtc.wisc.edu" ) || ( False
+initialdir = atlas93.chtc.wisc.edu
+queue
+
+requirements = True ) && (OpSysMajorVer == 6 || OpSysMajorVer == 7) && ( Machine == "atlas96.chtc.wisc.edu" ) || ( False
+initialdir = atlas96.chtc.wisc.edu
+queue
+
+requirements = True ) && (OpSysMajorVer == 6 || OpSysMajorVer == 7) && ( Machine == "atlas98.chtc.wisc.edu" ) || ( False
+initialdir = atlas98.chtc.wisc.edu
+queue
+
+requirements = True ) && (OpSysMajorVer == 6 || OpSysMajorVer == 7) && ( Machine == "atlas99.chtc.wisc.edu" ) || ( False
+initialdir = atlas99.chtc.wisc.edu
+queue
+
+requirements = True ) && (OpSysMajorVer == 6 || OpSysMajorVer == 7) && ( Machine == "c004.chtc.wisc.edu" ) || ( False
+initialdir = c004.chtc.wisc.edu
+queue
+
+requirements = True ) && (OpSysMajorVer == 6 || OpSysMajorVer == 7) && ( Machine == "c007.chtc.wisc.edu" ) || ( False
+initialdir = c007.chtc.wisc.edu
+queue
+
+requirements = True ) && (OpSysMajorVer == 6 || OpSysMajorVer == 7) && ( Machine == "c008.chtc.wisc.edu" ) || ( False
+initialdir = c008.chtc.wisc.edu
+queue
+
+requirements = True ) && (OpSysMajorVer == 6 || OpSysMajorVer == 7) && ( Machine == "c012.chtc.wisc.edu" ) || ( False
+initialdir = c012.chtc.wisc.edu
+queue
+
+requirements = True ) && (OpSysMajorVer == 6 || OpSysMajorVer == 7) && ( Machine == "c015.chtc.wisc.edu" ) || ( False
+initialdir = c015.chtc.wisc.edu
+queue
+
+requirements = True ) && (OpSysMajorVer == 6 || OpSysMajorVer == 7) && ( Machine == "c016.chtc.wisc.edu" ) || ( False
+initialdir = c016.chtc.wisc.edu
+queue
+
+requirements = True ) && (OpSysMajorVer == 6 || OpSysMajorVer == 7) && ( Machine == "c020.chtc.wisc.edu" ) || ( False
+initialdir = c020.chtc.wisc.edu
+queue
+
+requirements = True ) && (OpSysMajorVer == 6 || OpSysMajorVer == 7) && ( Machine == "c021.chtc.wisc.edu" ) || ( False
+initialdir = c021.chtc.wisc.edu
+queue
+
+requirements = True ) && (OpSysMajorVer == 6 || OpSysMajorVer == 7) && ( Machine == "c022.chtc.wisc.edu" ) || ( False
+initialdir = c022.chtc.wisc.edu
+queue
+
+requirements = True ) && (OpSysMajorVer == 6 || OpSysMajorVer == 7) && ( Machine == "c023.chtc.wisc.edu" ) || ( False
+initialdir = c023.chtc.wisc.edu
+queue
+
+requirements = True ) && (OpSysMajorVer == 6 || OpSysMajorVer == 7) && ( Machine == "c025.chtc.wisc.edu" ) || ( False
+initialdir = c025.chtc.wisc.edu
+queue
+
+requirements = True ) && (OpSysMajorVer == 6 || OpSysMajorVer == 7) && ( Machine == "c027.chtc.wisc.edu" ) || ( False
+initialdir = c027.chtc.wisc.edu
+queue
+
+requirements = True ) && (OpSysMajorVer == 6 || OpSysMajorVer == 7) && ( Machine == "c028.chtc.wisc.edu" ) || ( False
+initialdir = c028.chtc.wisc.edu
+queue
+
+requirements = True ) && (OpSysMajorVer == 6 || OpSysMajorVer == 7) && ( Machine == "c029.chtc.wisc.edu" ) || ( False
+initialdir = c029.chtc.wisc.edu
+queue
+
+requirements = True ) && (OpSysMajorVer == 6 || OpSysMajorVer == 7) && ( Machine == "c030.chtc.wisc.edu" ) || ( False
+initialdir = c030.chtc.wisc.edu
+queue
+
+requirements = True ) && (OpSysMajorVer == 6 || OpSysMajorVer == 7) && ( Machine == "c031.chtc.wisc.edu" ) || ( False
+initialdir = c031.chtc.wisc.edu
+queue
+
+requirements = True ) && (OpSysMajorVer == 6 || OpSysMajorVer == 7) && ( Machine == "c032.chtc.wisc.edu" ) || ( False
+initialdir = c032.chtc.wisc.edu
+queue
+
+requirements = True ) && (OpSysMajorVer == 6 || OpSysMajorVer == 7) && ( Machine == "c033.chtc.wisc.edu" ) || ( False
+initialdir = c033.chtc.wisc.edu
+queue
+
+requirements = True ) && (OpSysMajorVer == 6 || OpSysMajorVer == 7) && ( Machine == "c035.chtc.wisc.edu" ) || ( False
+initialdir = c035.chtc.wisc.edu
+queue
+
+requirements = True ) && (OpSysMajorVer == 6 || OpSysMajorVer == 7) && ( Machine == "c036.chtc.wisc.edu" ) || ( False
+initialdir = c036.chtc.wisc.edu
+queue
+
+requirements = True ) && (OpSysMajorVer == 6 || OpSysMajorVer == 7) && ( Machine == "c037.chtc.wisc.edu" ) || ( False
+initialdir = c037.chtc.wisc.edu
+queue
+
+requirements = True ) && (OpSysMajorVer == 6 || OpSysMajorVer == 7) && ( Machine == "c038.chtc.wisc.edu" ) || ( False
+initialdir = c038.chtc.wisc.edu
+queue
+
+requirements = True ) && (OpSysMajorVer == 6 || OpSysMajorVer == 7) && ( Machine == "c039.chtc.wisc.edu" ) || ( False
+initialdir = c039.chtc.wisc.edu
+queue
+
+requirements = True ) && (OpSysMajorVer == 6 || OpSysMajorVer == 7) && ( Machine == "c040.chtc.wisc.edu" ) || ( False
+initialdir = c040.chtc.wisc.edu
+queue
+
+requirements = True ) && (OpSysMajorVer == 6 || OpSysMajorVer == 7) && ( Machine == "c041.chtc.wisc.edu" ) || ( False
+initialdir = c041.chtc.wisc.edu
+queue
+
+requirements = True ) && (OpSysMajorVer == 6 || OpSysMajorVer == 7) && ( Machine == "c046.chtc.wisc.edu" ) || ( False
+initialdir = c046.chtc.wisc.edu
+queue
+
+requirements = True ) && (OpSysMajorVer == 6 || OpSysMajorVer == 7) && ( Machine == "c047.chtc.wisc.edu" ) || ( False
+initialdir = c047.chtc.wisc.edu
+queue
+
+requirements = True ) && (OpSysMajorVer == 6 || OpSysMajorVer == 7) && ( Machine == "c058.chtc.wisc.edu" ) || ( False
+initialdir = c058.chtc.wisc.edu
+queue
+
+requirements = True ) && (OpSysMajorVer == 6 || OpSysMajorVer == 7) && ( Machine == "c059.chtc.wisc.edu" ) || ( False
+initialdir = c059.chtc.wisc.edu
+queue
+
+requirements = True ) && (OpSysMajorVer == 6 || OpSysMajorVer == 7) && ( Machine == "c061.chtc.wisc.edu" ) || ( False
+initialdir = c061.chtc.wisc.edu
+queue
+
+requirements = True ) && (OpSysMajorVer == 6 || OpSysMajorVer == 7) && ( Machine == "c062.chtc.wisc.edu" ) || ( False
+initialdir = c062.chtc.wisc.edu
+queue
+
+requirements = True ) && (OpSysMajorVer == 6 || OpSysMajorVer == 7) && ( Machine == "c064.chtc.wisc.edu" ) || ( False
+initialdir = c064.chtc.wisc.edu
+queue
+
+requirements = True ) && (OpSysMajorVer == 6 || OpSysMajorVer == 7) && ( Machine == "c065.chtc.wisc.edu" ) || ( False
+initialdir = c065.chtc.wisc.edu
+queue
+
+requirements = True ) && (OpSysMajorVer == 6 || OpSysMajorVer == 7) && ( Machine == "c069.chtc.wisc.edu" ) || ( False
+initialdir = c069.chtc.wisc.edu
+queue
+
+requirements = True ) && (OpSysMajorVer == 6 || OpSysMajorVer == 7) && ( Machine == "c070.chtc.wisc.edu" ) || ( False
+initialdir = c070.chtc.wisc.edu
+queue
+
+requirements = True ) && (OpSysMajorVer == 6 || OpSysMajorVer == 7) && ( Machine == "c071.chtc.wisc.edu" ) || ( False
+initialdir = c071.chtc.wisc.edu
+queue
+
+requirements = True ) && (OpSysMajorVer == 6 || OpSysMajorVer == 7) && ( Machine == "c074.chtc.wisc.edu" ) || ( False
+initialdir = c074.chtc.wisc.edu
+queue
+
+requirements = True ) && (OpSysMajorVer == 6 || OpSysMajorVer == 7) && ( Machine == "c077.chtc.wisc.edu" ) || ( False
+initialdir = c077.chtc.wisc.edu
+queue
+
+requirements = True ) && (OpSysMajorVer == 6 || OpSysMajorVer == 7) && ( Machine == "c078.chtc.wisc.edu" ) || ( False
+initialdir = c078.chtc.wisc.edu
+queue
+
+requirements = True ) && (OpSysMajorVer == 6 || OpSysMajorVer == 7) && ( Machine == "c081.chtc.wisc.edu" ) || ( False
+initialdir = c081.chtc.wisc.edu
+queue
+
+requirements = True ) && (OpSysMajorVer == 6 || OpSysMajorVer == 7) && ( Machine == "c082.chtc.wisc.edu" ) || ( False
+initialdir = c082.chtc.wisc.edu
+queue
+
+requirements = True ) && (OpSysMajorVer == 6 || OpSysMajorVer == 7) && ( Machine == "c084.chtc.wisc.edu" ) || ( False
+initialdir = c084.chtc.wisc.edu
+queue
+
+requirements = True ) && (OpSysMajorVer == 6 || OpSysMajorVer == 7) && ( Machine == "c085.chtc.wisc.edu" ) || ( False
+initialdir = c085.chtc.wisc.edu
+queue
+
+requirements = True ) && (OpSysMajorVer == 6 || OpSysMajorVer == 7) && ( Machine == "c086.chtc.wisc.edu" ) || ( False
+initialdir = c086.chtc.wisc.edu
+queue
+
+requirements = True ) && (OpSysMajorVer == 6 || OpSysMajorVer == 7) && ( Machine == "c088.chtc.wisc.edu" ) || ( False
+initialdir = c088.chtc.wisc.edu
+queue
+
+requirements = True ) && (OpSysMajorVer == 6 || OpSysMajorVer == 7) && ( Machine == "c089.chtc.wisc.edu" ) || ( False
+initialdir = c089.chtc.wisc.edu
+queue
+
+requirements = True ) && (OpSysMajorVer == 6 || OpSysMajorVer == 7) && ( Machine == "c090.chtc.wisc.edu" ) || ( False
+initialdir = c090.chtc.wisc.edu
+queue
+
+requirements = True ) && (OpSysMajorVer == 6 || OpSysMajorVer == 7) && ( Machine == "e001.chtc.wisc.edu" ) || ( False
+initialdir = e001.chtc.wisc.edu
+queue
+
+requirements = True ) && (OpSysMajorVer == 6 || OpSysMajorVer == 7) && ( Machine == "e002.chtc.wisc.edu" ) || ( False
+initialdir = e002.chtc.wisc.edu
+queue
+
+requirements = True ) && (OpSysMajorVer == 6 || OpSysMajorVer == 7) && ( Machine == "e003.chtc.wisc.edu" ) || ( False
+initialdir = e003.chtc.wisc.edu
+queue
+
+requirements = True ) && (OpSysMajorVer == 6 || OpSysMajorVer == 7) && ( Machine == "e004.chtc.wisc.edu" ) || ( False
+initialdir = e004.chtc.wisc.edu
+queue
+
+requirements = True ) && (OpSysMajorVer == 6 || OpSysMajorVer == 7) && ( Machine == "e005.chtc.wisc.edu" ) || ( False
+initialdir = e005.chtc.wisc.edu
+queue
+
+requirements = True ) && (OpSysMajorVer == 6 || OpSysMajorVer == 7) && ( Machine == "e006.chtc.wisc.edu" ) || ( False
+initialdir = e006.chtc.wisc.edu
+queue
+
+requirements = True ) && (OpSysMajorVer == 6 || OpSysMajorVer == 7) && ( Machine == "e008.chtc.wisc.edu" ) || ( False
+initialdir = e008.chtc.wisc.edu
+queue
+
+requirements = True ) && (OpSysMajorVer == 6 || OpSysMajorVer == 7) && ( Machine == "e009.chtc.wisc.edu" ) || ( False
+initialdir = e009.chtc.wisc.edu
+queue
+
+requirements = True ) && (OpSysMajorVer == 6 || OpSysMajorVer == 7) && ( Machine == "e010.chtc.wisc.edu" ) || ( False
+initialdir = e010.chtc.wisc.edu
+queue
+
+requirements = True ) && (OpSysMajorVer == 6 || OpSysMajorVer == 7) && ( Machine == "e014.chtc.wisc.edu" ) || ( False
+initialdir = e014.chtc.wisc.edu
+queue
+
+requirements = True ) && (OpSysMajorVer == 6 || OpSysMajorVer == 7) && ( Machine == "e017.chtc.wisc.edu" ) || ( False
+initialdir = e017.chtc.wisc.edu
+queue
+
+requirements = True ) && (OpSysMajorVer == 6 || OpSysMajorVer == 7) && ( Machine == "e019.chtc.wisc.edu" ) || ( False
+initialdir = e019.chtc.wisc.edu
+queue
+
+requirements = True ) && (OpSysMajorVer == 6 || OpSysMajorVer == 7) && ( Machine == "e021.chtc.wisc.edu" ) || ( False
+initialdir = e021.chtc.wisc.edu
+queue
+
+requirements = True ) && (OpSysMajorVer == 6 || OpSysMajorVer == 7) && ( Machine == "e024.chtc.wisc.edu" ) || ( False
+initialdir = e024.chtc.wisc.edu
+queue
+
+requirements = True ) && (OpSysMajorVer == 6 || OpSysMajorVer == 7) && ( Machine == "e028.chtc.wisc.edu" ) || ( False
+initialdir = e028.chtc.wisc.edu
+queue
+
+requirements = True ) && (OpSysMajorVer == 6 || OpSysMajorVer == 7) && ( Machine == "e030.chtc.wisc.edu" ) || ( False
+initialdir = e030.chtc.wisc.edu
+queue
+
+requirements = True ) && (OpSysMajorVer == 6 || OpSysMajorVer == 7) && ( Machine == "e033.chtc.wisc.edu" ) || ( False
+initialdir = e033.chtc.wisc.edu
+queue
+
+requirements = True ) && (OpSysMajorVer == 6 || OpSysMajorVer == 7) && ( Machine == "e034.chtc.wisc.edu" ) || ( False
+initialdir = e034.chtc.wisc.edu
+queue
+
+requirements = True ) && (OpSysMajorVer == 6 || OpSysMajorVer == 7) && ( Machine == "e035.chtc.wisc.edu" ) || ( False
+initialdir = e035.chtc.wisc.edu
+queue
+
+requirements = True ) && (OpSysMajorVer == 6 || OpSysMajorVer == 7) && ( Machine == "e045.chtc.wisc.edu" ) || ( False
+initialdir = e045.chtc.wisc.edu
+queue
+
+requirements = True ) && (OpSysMajorVer == 6 || OpSysMajorVer == 7) && ( Machine == "e047.chtc.wisc.edu" ) || ( False
+initialdir = e047.chtc.wisc.edu
+queue
+
+requirements = True ) && (OpSysMajorVer == 6 || OpSysMajorVer == 7) && ( Machine == "e053.chtc.wisc.edu" ) || ( False
+initialdir = e053.chtc.wisc.edu
+queue
+
+requirements = True ) && (OpSysMajorVer == 6 || OpSysMajorVer == 7) && ( Machine == "e054.chtc.wisc.edu" ) || ( False
+initialdir = e054.chtc.wisc.edu
+queue
+
+requirements = True ) && (OpSysMajorVer == 6 || OpSysMajorVer == 7) && ( Machine == "e063.chtc.wisc.edu" ) || ( False
+initialdir = e063.chtc.wisc.edu
+queue
+
+requirements = True ) && (OpSysMajorVer == 6 || OpSysMajorVer == 7) && ( Machine == "e064.chtc.wisc.edu" ) || ( False
+initialdir = e064.chtc.wisc.edu
+queue
+
+requirements = True ) && (OpSysMajorVer == 6 || OpSysMajorVer == 7) && ( Machine == "e086.chtc.wisc.edu" ) || ( False
+initialdir = e086.chtc.wisc.edu
+queue
+
+requirements = True ) && (OpSysMajorVer == 6 || OpSysMajorVer == 7) && ( Machine == "e095.chtc.wisc.edu" ) || ( False
+initialdir = e095.chtc.wisc.edu
+queue
+
+requirements = True ) && (OpSysMajorVer == 6 || OpSysMajorVer == 7) && ( Machine == "e096.chtc.wisc.edu" ) || ( False
+initialdir = e096.chtc.wisc.edu
+queue
+
+requirements = True ) && (OpSysMajorVer == 6 || OpSysMajorVer == 7) && ( Machine == "e097.chtc.wisc.edu" ) || ( False
+initialdir = e097.chtc.wisc.edu
+queue
+
+requirements = True ) && (OpSysMajorVer == 6 || OpSysMajorVer == 7) && ( Machine == "e098.chtc.wisc.edu" ) || ( False
+initialdir = e098.chtc.wisc.edu
+queue
+
+requirements = True ) && (OpSysMajorVer == 6 || OpSysMajorVer == 7) && ( Machine == "e099.chtc.wisc.edu" ) || ( False
+initialdir = e099.chtc.wisc.edu
+queue
+
+requirements = True ) && (OpSysMajorVer == 6 || OpSysMajorVer == 7) && ( Machine == "e100.chtc.wisc.edu" ) || ( False
+initialdir = e100.chtc.wisc.edu
+queue
+
+requirements = True ) && (OpSysMajorVer == 6 || OpSysMajorVer == 7) && ( Machine == "e101.chtc.wisc.edu" ) || ( False
+initialdir = e101.chtc.wisc.edu
+queue
+
+requirements = True ) && (OpSysMajorVer == 6 || OpSysMajorVer == 7) && ( Machine == "e102.chtc.wisc.edu" ) || ( False
+initialdir = e102.chtc.wisc.edu
+queue
+
+requirements = True ) && (OpSysMajorVer == 6 || OpSysMajorVer == 7) && ( Machine == "e103.chtc.wisc.edu" ) || ( False
+initialdir = e103.chtc.wisc.edu
+queue
+
+requirements = True ) && (OpSysMajorVer == 6 || OpSysMajorVer == 7) && ( Machine == "e104.chtc.wisc.edu" ) || ( False
+initialdir = e104.chtc.wisc.edu
+queue
+
+requirements = True ) && (OpSysMajorVer == 6 || OpSysMajorVer == 7) && ( Machine == "e106.chtc.wisc.edu" ) || ( False
+initialdir = e106.chtc.wisc.edu
+queue
+
+requirements = True ) && (OpSysMajorVer == 6 || OpSysMajorVer == 7) && ( Machine == "e107.chtc.wisc.edu" ) || ( False
+initialdir = e107.chtc.wisc.edu
+queue
+
+requirements = True ) && (OpSysMajorVer == 6 || OpSysMajorVer == 7) && ( Machine == "e108.chtc.wisc.edu" ) || ( False
+initialdir = e108.chtc.wisc.edu
+queue
+
+requirements = True ) && (OpSysMajorVer == 6 || OpSysMajorVer == 7) && ( Machine == "e109.chtc.wisc.edu" ) || ( False
+initialdir = e109.chtc.wisc.edu
+queue
+
+requirements = True ) && (OpSysMajorVer == 6 || OpSysMajorVer == 7) && ( Machine == "e110.chtc.wisc.edu" ) || ( False
+initialdir = e110.chtc.wisc.edu
+queue
+
+requirements = True ) && (OpSysMajorVer == 6 || OpSysMajorVer == 7) && ( Machine == "e111.chtc.wisc.edu" ) || ( False
+initialdir = e111.chtc.wisc.edu
+queue
+
+requirements = True ) && (OpSysMajorVer == 6 || OpSysMajorVer == 7) && ( Machine == "e112.chtc.wisc.edu" ) || ( False
+initialdir = e112.chtc.wisc.edu
+queue
+
+requirements = True ) && (OpSysMajorVer == 6 || OpSysMajorVer == 7) && ( Machine == "e113.chtc.wisc.edu" ) || ( False
+initialdir = e113.chtc.wisc.edu
+queue
+
+requirements = True ) && (OpSysMajorVer == 6 || OpSysMajorVer == 7) && ( Machine == "e114.chtc.wisc.edu" ) || ( False
+initialdir = e114.chtc.wisc.edu
+queue
+
+requirements = True ) && (OpSysMajorVer == 6 || OpSysMajorVer == 7) && ( Machine == "e115.chtc.wisc.edu" ) || ( False
+initialdir = e115.chtc.wisc.edu
+queue
+
+requirements = True ) && (OpSysMajorVer == 6 || OpSysMajorVer == 7) && ( Machine == "e116.chtc.wisc.edu" ) || ( False
+initialdir = e116.chtc.wisc.edu
+queue
+
+requirements = True ) && (OpSysMajorVer == 6 || OpSysMajorVer == 7) && ( Machine == "e117.chtc.wisc.edu" ) || ( False
+initialdir = e117.chtc.wisc.edu
+queue
+
+requirements = True ) && (OpSysMajorVer == 6 || OpSysMajorVer == 7) && ( Machine == "e118.chtc.wisc.edu" ) || ( False
+initialdir = e118.chtc.wisc.edu
+queue
+
+requirements = True ) && (OpSysMajorVer == 6 || OpSysMajorVer == 7) && ( Machine == "e120.chtc.wisc.edu" ) || ( False
+initialdir = e120.chtc.wisc.edu
+queue
+
+requirements = True ) && (OpSysMajorVer == 6 || OpSysMajorVer == 7) && ( Machine == "e122.chtc.wisc.edu" ) || ( False
+initialdir = e122.chtc.wisc.edu
+queue
+
+requirements = True ) && (OpSysMajorVer == 6 || OpSysMajorVer == 7) && ( Machine == "e124.chtc.wisc.edu" ) || ( False
+initialdir = e124.chtc.wisc.edu
+queue
+
+requirements = True ) && (OpSysMajorVer == 6 || OpSysMajorVer == 7) && ( Machine == "e125.chtc.wisc.edu" ) || ( False
+initialdir = e125.chtc.wisc.edu
+queue
+
+requirements = True ) && (OpSysMajorVer == 6 || OpSysMajorVer == 7) && ( Machine == "e126.chtc.wisc.edu" ) || ( False
+initialdir = e126.chtc.wisc.edu
+queue
+
+requirements = True ) && (OpSysMajorVer == 6 || OpSysMajorVer == 7) && ( Machine == "e127.chtc.wisc.edu" ) || ( False
+initialdir = e127.chtc.wisc.edu
+queue
+
+requirements = True ) && (OpSysMajorVer == 6 || OpSysMajorVer == 7) && ( Machine == "e128.chtc.wisc.edu" ) || ( False
+initialdir = e128.chtc.wisc.edu
+queue
+
+requirements = True ) && (OpSysMajorVer == 6 || OpSysMajorVer == 7) && ( Machine == "e129.chtc.wisc.edu" ) || ( False
+initialdir = e129.chtc.wisc.edu
+queue
+
+requirements = True ) && (OpSysMajorVer == 6 || OpSysMajorVer == 7) && ( Machine == "e130.chtc.wisc.edu" ) || ( False
+initialdir = e130.chtc.wisc.edu
+queue
+
+requirements = True ) && (OpSysMajorVer == 6 || OpSysMajorVer == 7) && ( Machine == "e131.chtc.wisc.edu" ) || ( False
+initialdir = e131.chtc.wisc.edu
+queue
+
+requirements = True ) && (OpSysMajorVer == 6 || OpSysMajorVer == 7) && ( Machine == "e133.chtc.wisc.edu" ) || ( False
+initialdir = e133.chtc.wisc.edu
+queue
+
+requirements = True ) && (OpSysMajorVer == 6 || OpSysMajorVer == 7) && ( Machine == "e134.chtc.wisc.edu" ) || ( False
+initialdir = e134.chtc.wisc.edu
+queue
+
+requirements = True ) && (OpSysMajorVer == 6 || OpSysMajorVer == 7) && ( Machine == "e135.chtc.wisc.edu" ) || ( False
+initialdir = e135.chtc.wisc.edu
+queue
+
+requirements = True ) && (OpSysMajorVer == 6 || OpSysMajorVer == 7) && ( Machine == "e136.chtc.wisc.edu" ) || ( False
+initialdir = e136.chtc.wisc.edu
+queue
+
+requirements = True ) && (OpSysMajorVer == 6 || OpSysMajorVer == 7) && ( Machine == "e137.chtc.wisc.edu" ) || ( False
+initialdir = e137.chtc.wisc.edu
+queue
+
+requirements = True ) && (OpSysMajorVer == 6 || OpSysMajorVer == 7) && ( Machine == "e138.chtc.wisc.edu" ) || ( False
+initialdir = e138.chtc.wisc.edu
+queue
+
+requirements = True ) && (OpSysMajorVer == 6 || OpSysMajorVer == 7) && ( Machine == "e139.chtc.wisc.edu" ) || ( False
+initialdir = e139.chtc.wisc.edu
+queue
+
+requirements = True ) && (OpSysMajorVer == 6 || OpSysMajorVer == 7) && ( Machine == "e140.chtc.wisc.edu" ) || ( False
+initialdir = e140.chtc.wisc.edu
+queue
+
+requirements = True ) && (OpSysMajorVer == 6 || OpSysMajorVer == 7) && ( Machine == "e143.chtc.wisc.edu" ) || ( False
+initialdir = e143.chtc.wisc.edu
+queue
+
+requirements = True ) && (OpSysMajorVer == 6 || OpSysMajorVer == 7) && ( Machine == "e144.chtc.wisc.edu" ) || ( False
+initialdir = e144.chtc.wisc.edu
+queue
+
+requirements = True ) && (OpSysMajorVer == 6 || OpSysMajorVer == 7) && ( Machine == "e145.chtc.wisc.edu" ) || ( False
+initialdir = e145.chtc.wisc.edu
+queue
+
+requirements = True ) && (OpSysMajorVer == 6 || OpSysMajorVer == 7) && ( Machine == "e146.chtc.wisc.edu" ) || ( False
+initialdir = e146.chtc.wisc.edu
+queue
+
+requirements = True ) && (OpSysMajorVer == 6 || OpSysMajorVer == 7) && ( Machine == "e147.chtc.wisc.edu" ) || ( False
+initialdir = e147.chtc.wisc.edu
+queue
+
+requirements = True ) && (OpSysMajorVer == 6 || OpSysMajorVer == 7) && ( Machine == "e148.chtc.wisc.edu" ) || ( False
+initialdir = e148.chtc.wisc.edu
+queue
+
+requirements = True ) && (OpSysMajorVer == 6 || OpSysMajorVer == 7) && ( Machine == "e149.chtc.wisc.edu" ) || ( False
+initialdir = e149.chtc.wisc.edu
+queue
+
+requirements = True ) && (OpSysMajorVer == 6 || OpSysMajorVer == 7) && ( Machine == "e151.chtc.wisc.edu" ) || ( False
+initialdir = e151.chtc.wisc.edu
+queue
+
+requirements = True ) && (OpSysMajorVer == 6 || OpSysMajorVer == 7) && ( Machine == "e152.chtc.wisc.edu" ) || ( False
+initialdir = e152.chtc.wisc.edu
+queue
+
+requirements = True ) && (OpSysMajorVer == 6 || OpSysMajorVer == 7) && ( Machine == "e153.chtc.wisc.edu" ) || ( False
+initialdir = e153.chtc.wisc.edu
+queue
+
+requirements = True ) && (OpSysMajorVer == 6 || OpSysMajorVer == 7) && ( Machine == "e154.chtc.wisc.edu" ) || ( False
+initialdir = e154.chtc.wisc.edu
+queue
+
+requirements = True ) && (OpSysMajorVer == 6 || OpSysMajorVer == 7) && ( Machine == "e155.chtc.wisc.edu" ) || ( False
+initialdir = e155.chtc.wisc.edu
+queue
+
+requirements = True ) && (OpSysMajorVer == 6 || OpSysMajorVer == 7) && ( Machine == "e156.chtc.wisc.edu" ) || ( False
+initialdir = e156.chtc.wisc.edu
+queue
+
+requirements = True ) && (OpSysMajorVer == 6 || OpSysMajorVer == 7) && ( Machine == "e157.chtc.wisc.edu" ) || ( False
+initialdir = e157.chtc.wisc.edu
+queue
+
+requirements = True ) && (OpSysMajorVer == 6 || OpSysMajorVer == 7) && ( Machine == "e158.chtc.wisc.edu" ) || ( False
+initialdir = e158.chtc.wisc.edu
+queue
+
+requirements = True ) && (OpSysMajorVer == 6 || OpSysMajorVer == 7) && ( Machine == "e159.chtc.wisc.edu" ) || ( False
+initialdir = e159.chtc.wisc.edu
+queue
+
+requirements = True ) && (OpSysMajorVer == 6 || OpSysMajorVer == 7) && ( Machine == "e160.chtc.wisc.edu" ) || ( False
+initialdir = e160.chtc.wisc.edu
+queue
+
+requirements = True ) && (OpSysMajorVer == 6 || OpSysMajorVer == 7) && ( Machine == "e161.chtc.wisc.edu" ) || ( False
+initialdir = e161.chtc.wisc.edu
+queue
+
+requirements = True ) && (OpSysMajorVer == 6 || OpSysMajorVer == 7) && ( Machine == "e162.chtc.wisc.edu" ) || ( False
+initialdir = e162.chtc.wisc.edu
+queue
+
+requirements = True ) && (OpSysMajorVer == 6 || OpSysMajorVer == 7) && ( Machine == "e163.chtc.wisc.edu" ) || ( False
+initialdir = e163.chtc.wisc.edu
+queue
+
+requirements = True ) && (OpSysMajorVer == 6 || OpSysMajorVer == 7) && ( Machine == "e165.chtc.wisc.edu" ) || ( False
+initialdir = e165.chtc.wisc.edu
+queue
+
+requirements = True ) && (OpSysMajorVer == 6 || OpSysMajorVer == 7) && ( Machine == "e167.chtc.wisc.edu" ) || ( False
+initialdir = e167.chtc.wisc.edu
+queue
+
+requirements = True ) && (OpSysMajorVer == 6 || OpSysMajorVer == 7) && ( Machine == "e168.chtc.wisc.edu" ) || ( False
+initialdir = e168.chtc.wisc.edu
+queue
+
+requirements = True ) && (OpSysMajorVer == 6 || OpSysMajorVer == 7) && ( Machine == "e169.chtc.wisc.edu" ) || ( False
+initialdir = e169.chtc.wisc.edu
+queue
+
+requirements = True ) && (OpSysMajorVer == 6 || OpSysMajorVer == 7) && ( Machine == "e170.chtc.wisc.edu" ) || ( False
+initialdir = e170.chtc.wisc.edu
+queue
+
+requirements = True ) && (OpSysMajorVer == 6 || OpSysMajorVer == 7) && ( Machine == "e171.chtc.wisc.edu" ) || ( False
+initialdir = e171.chtc.wisc.edu
+queue
+
+requirements = True ) && (OpSysMajorVer == 6 || OpSysMajorVer == 7) && ( Machine == "e172.chtc.wisc.edu" ) || ( False
+initialdir = e172.chtc.wisc.edu
+queue
+
+requirements = True ) && (OpSysMajorVer == 6 || OpSysMajorVer == 7) && ( Machine == "e173.chtc.wisc.edu" ) || ( False
+initialdir = e173.chtc.wisc.edu
+queue
+
+requirements = True ) && (OpSysMajorVer == 6 || OpSysMajorVer == 7) && ( Machine == "e174.chtc.wisc.edu" ) || ( False
+initialdir = e174.chtc.wisc.edu
+queue
+
+requirements = True ) && (OpSysMajorVer == 6 || OpSysMajorVer == 7) && ( Machine == "e175.chtc.wisc.edu" ) || ( False
+initialdir = e175.chtc.wisc.edu
+queue
+
+requirements = True ) && (OpSysMajorVer == 6 || OpSysMajorVer == 7) && ( Machine == "e176.chtc.wisc.edu" ) || ( False
+initialdir = e176.chtc.wisc.edu
+queue
+
+requirements = True ) && (OpSysMajorVer == 6 || OpSysMajorVer == 7) && ( Machine == "e177.chtc.wisc.edu" ) || ( False
+initialdir = e177.chtc.wisc.edu
+queue
+
+requirements = True ) && (OpSysMajorVer == 6 || OpSysMajorVer == 7) && ( Machine == "e178.chtc.wisc.edu" ) || ( False
+initialdir = e178.chtc.wisc.edu
+queue
+
+requirements = True ) && (OpSysMajorVer == 6 || OpSysMajorVer == 7) && ( Machine == "e179.chtc.wisc.edu" ) || ( False
+initialdir = e179.chtc.wisc.edu
+queue
+
+requirements = True ) && (OpSysMajorVer == 6 || OpSysMajorVer == 7) && ( Machine == "e180.chtc.wisc.edu" ) || ( False
+initialdir = e180.chtc.wisc.edu
+queue
+
+requirements = True ) && (OpSysMajorVer == 6 || OpSysMajorVer == 7) && ( Machine == "e181.chtc.wisc.edu" ) || ( False
+initialdir = e181.chtc.wisc.edu
+queue
+
+requirements = True ) && (OpSysMajorVer == 6 || OpSysMajorVer == 7) && ( Machine == "e182.chtc.wisc.edu" ) || ( False
+initialdir = e182.chtc.wisc.edu
+queue
+
+requirements = True ) && (OpSysMajorVer == 6 || OpSysMajorVer == 7) && ( Machine == "e183.chtc.wisc.edu" ) || ( False
+initialdir = e183.chtc.wisc.edu
+queue
+
+requirements = True ) && (OpSysMajorVer == 6 || OpSysMajorVer == 7) && ( Machine == "e184.chtc.wisc.edu" ) || ( False
+initialdir = e184.chtc.wisc.edu
+queue
+
+requirements = True ) && (OpSysMajorVer == 6 || OpSysMajorVer == 7) && ( Machine == "e185.chtc.wisc.edu" ) || ( False
+initialdir = e185.chtc.wisc.edu
+queue
+
+requirements = True ) && (OpSysMajorVer == 6 || OpSysMajorVer == 7) && ( Machine == "e186.chtc.wisc.edu" ) || ( False
+initialdir = e186.chtc.wisc.edu
+queue
+
+requirements = True ) && (OpSysMajorVer == 6 || OpSysMajorVer == 7) && ( Machine == "e187.chtc.wisc.edu" ) || ( False
+initialdir = e187.chtc.wisc.edu
+queue
+
+requirements = True ) && (OpSysMajorVer == 6 || OpSysMajorVer == 7) && ( Machine == "e188.chtc.wisc.edu" ) || ( False
+initialdir = e188.chtc.wisc.edu
+queue
+
+requirements = True ) && (OpSysMajorVer == 6 || OpSysMajorVer == 7) && ( Machine == "e189.chtc.wisc.edu" ) || ( False
+initialdir = e189.chtc.wisc.edu
+queue
+
+requirements = True ) && (OpSysMajorVer == 6 || OpSysMajorVer == 7) && ( Machine == "e190.chtc.wisc.edu" ) || ( False
+initialdir = e190.chtc.wisc.edu
+queue
+
+requirements = True ) && (OpSysMajorVer == 6 || OpSysMajorVer == 7) && ( Machine == "e191.chtc.wisc.edu" ) || ( False
+initialdir = e191.chtc.wisc.edu
+queue
+
+requirements = True ) && (OpSysMajorVer == 6 || OpSysMajorVer == 7) && ( Machine == "e192.chtc.wisc.edu" ) || ( False
+initialdir = e192.chtc.wisc.edu
+queue
+
+requirements = True ) && (OpSysMajorVer == 6 || OpSysMajorVer == 7) && ( Machine == "e193.chtc.wisc.edu" ) || ( False
+initialdir = e193.chtc.wisc.edu
+queue
+
+requirements = True ) && (OpSysMajorVer == 6 || OpSysMajorVer == 7) && ( Machine == "e194.chtc.wisc.edu" ) || ( False
+initialdir = e194.chtc.wisc.edu
+queue
+
+requirements = True ) && (OpSysMajorVer == 6 || OpSysMajorVer == 7) && ( Machine == "e195.chtc.wisc.edu" ) || ( False
+initialdir = e195.chtc.wisc.edu
+queue
+
+requirements = True ) && (OpSysMajorVer == 6 || OpSysMajorVer == 7) && ( Machine == "e196.chtc.wisc.edu" ) || ( False
+initialdir = e196.chtc.wisc.edu
+queue
+
+requirements = True ) && (OpSysMajorVer == 6 || OpSysMajorVer == 7) && ( Machine == "e197.chtc.wisc.edu" ) || ( False
+initialdir = e197.chtc.wisc.edu
+queue
+
+requirements = True ) && (OpSysMajorVer == 6 || OpSysMajorVer == 7) && ( Machine == "e199.chtc.wisc.edu" ) || ( False
+initialdir = e199.chtc.wisc.edu
+queue
+
+requirements = True ) && (OpSysMajorVer == 6 || OpSysMajorVer == 7) && ( Machine == "e200.chtc.wisc.edu" ) || ( False
+initialdir = e200.chtc.wisc.edu
+queue
+
+requirements = True ) && (OpSysMajorVer == 6 || OpSysMajorVer == 7) && ( Machine == "e201.chtc.wisc.edu" ) || ( False
+initialdir = e201.chtc.wisc.edu
+queue
+
+requirements = True ) && (OpSysMajorVer == 6 || OpSysMajorVer == 7) && ( Machine == "e202.chtc.wisc.edu" ) || ( False
+initialdir = e202.chtc.wisc.edu
+queue
+
+requirements = True ) && (OpSysMajorVer == 6 || OpSysMajorVer == 7) && ( Machine == "e203.chtc.wisc.edu" ) || ( False
+initialdir = e203.chtc.wisc.edu
+queue
+
+requirements = True ) && (OpSysMajorVer == 6 || OpSysMajorVer == 7) && ( Machine == "e204.chtc.wisc.edu" ) || ( False
+initialdir = e204.chtc.wisc.edu
+queue
+
+requirements = True ) && (OpSysMajorVer == 6 || OpSysMajorVer == 7) && ( Machine == "e205.chtc.wisc.edu" ) || ( False
+initialdir = e205.chtc.wisc.edu
+queue
+
+requirements = True ) && (OpSysMajorVer == 6 || OpSysMajorVer == 7) && ( Machine == "e206.chtc.wisc.edu" ) || ( False
+initialdir = e206.chtc.wisc.edu
+queue
+
+requirements = True ) && (OpSysMajorVer == 6 || OpSysMajorVer == 7) && ( Machine == "e207.chtc.wisc.edu" ) || ( False
+initialdir = e207.chtc.wisc.edu
+queue
+
+requirements = True ) && (OpSysMajorVer == 6 || OpSysMajorVer == 7) && ( Machine == "e209.chtc.wisc.edu" ) || ( False
+initialdir = e209.chtc.wisc.edu
+queue
+
+requirements = True ) && (OpSysMajorVer == 6 || OpSysMajorVer == 7) && ( Machine == "e210.chtc.wisc.edu" ) || ( False
+initialdir = e210.chtc.wisc.edu
+queue
+
+requirements = True ) && (OpSysMajorVer == 6 || OpSysMajorVer == 7) && ( Machine == "e212.chtc.wisc.edu" ) || ( False
+initialdir = e212.chtc.wisc.edu
+queue
+
+requirements = True ) && (OpSysMajorVer == 6 || OpSysMajorVer == 7) && ( Machine == "e214.chtc.wisc.edu" ) || ( False
+initialdir = e214.chtc.wisc.edu
+queue
+
+requirements = True ) && (OpSysMajorVer == 6 || OpSysMajorVer == 7) && ( Machine == "e215.chtc.wisc.edu" ) || ( False
+initialdir = e215.chtc.wisc.edu
+queue
+
+requirements = True ) && (OpSysMajorVer == 6 || OpSysMajorVer == 7) && ( Machine == "e219.chtc.wisc.edu" ) || ( False
+initialdir = e219.chtc.wisc.edu
+queue
+
+requirements = True ) && (OpSysMajorVer == 6 || OpSysMajorVer == 7) && ( Machine == "e220.chtc.wisc.edu" ) || ( False
+initialdir = e220.chtc.wisc.edu
+queue
+
+requirements = True ) && (OpSysMajorVer == 6 || OpSysMajorVer == 7) && ( Machine == "e222.chtc.wisc.edu" ) || ( False
+initialdir = e222.chtc.wisc.edu
+queue
+
+requirements = True ) && (OpSysMajorVer == 6 || OpSysMajorVer == 7) && ( Machine == "e223.chtc.wisc.edu" ) || ( False
+initialdir = e223.chtc.wisc.edu
+queue
+
+requirements = True ) && (OpSysMajorVer == 6 || OpSysMajorVer == 7) && ( Machine == "e224.chtc.wisc.edu" ) || ( False
+initialdir = e224.chtc.wisc.edu
+queue
+
+requirements = True ) && (OpSysMajorVer == 6 || OpSysMajorVer == 7) && ( Machine == "e225.chtc.wisc.edu" ) || ( False
+initialdir = e225.chtc.wisc.edu
+queue
+
+requirements = True ) && (OpSysMajorVer == 6 || OpSysMajorVer == 7) && ( Machine == "e226.chtc.wisc.edu" ) || ( False
+initialdir = e226.chtc.wisc.edu
+queue
+
+requirements = True ) && (OpSysMajorVer == 6 || OpSysMajorVer == 7) && ( Machine == "e227.chtc.wisc.edu" ) || ( False
+initialdir = e227.chtc.wisc.edu
+queue
+
+requirements = True ) && (OpSysMajorVer == 6 || OpSysMajorVer == 7) && ( Machine == "e228.chtc.wisc.edu" ) || ( False
+initialdir = e228.chtc.wisc.edu
+queue
+
+requirements = True ) && (OpSysMajorVer == 6 || OpSysMajorVer == 7) && ( Machine == "e229.chtc.wisc.edu" ) || ( False
+initialdir = e229.chtc.wisc.edu
+queue
+
+requirements = True ) && (OpSysMajorVer == 6 || OpSysMajorVer == 7) && ( Machine == "e230.chtc.wisc.edu" ) || ( False
+initialdir = e230.chtc.wisc.edu
+queue
+
+requirements = True ) && (OpSysMajorVer == 6 || OpSysMajorVer == 7) && ( Machine == "e232.chtc.wisc.edu" ) || ( False
+initialdir = e232.chtc.wisc.edu
+queue
+
+requirements = True ) && (OpSysMajorVer == 6 || OpSysMajorVer == 7) && ( Machine == "e233.chtc.wisc.edu" ) || ( False
+initialdir = e233.chtc.wisc.edu
+queue
+
+requirements = True ) && (OpSysMajorVer == 6 || OpSysMajorVer == 7) && ( Machine == "e234.chtc.wisc.edu" ) || ( False
+initialdir = e234.chtc.wisc.edu
+queue
+
+requirements = True ) && (OpSysMajorVer == 6 || OpSysMajorVer == 7) && ( Machine == "e235.chtc.wisc.edu" ) || ( False
+initialdir = e235.chtc.wisc.edu
+queue
+
+requirements = True ) && (OpSysMajorVer == 6 || OpSysMajorVer == 7) && ( Machine == "e236.chtc.wisc.edu" ) || ( False
+initialdir = e236.chtc.wisc.edu
+queue
+
+requirements = True ) && (OpSysMajorVer == 6 || OpSysMajorVer == 7) && ( Machine == "e237.chtc.wisc.edu" ) || ( False
+initialdir = e237.chtc.wisc.edu
+queue
+
+requirements = True ) && (OpSysMajorVer == 6 || OpSysMajorVer == 7) && ( Machine == "e238.chtc.wisc.edu" ) || ( False
+initialdir = e238.chtc.wisc.edu
+queue
+
+requirements = True ) && (OpSysMajorVer == 6 || OpSysMajorVer == 7) && ( Machine == "e239.chtc.wisc.edu" ) || ( False
+initialdir = e239.chtc.wisc.edu
+queue
+
+requirements = True ) && (OpSysMajorVer == 6 || OpSysMajorVer == 7) && ( Machine == "e240.chtc.wisc.edu" ) || ( False
+initialdir = e240.chtc.wisc.edu
+queue
+
+requirements = True ) && (OpSysMajorVer == 6 || OpSysMajorVer == 7) && ( Machine == "e241.chtc.wisc.edu" ) || ( False
+initialdir = e241.chtc.wisc.edu
+queue
+
+requirements = True ) && (OpSysMajorVer == 6 || OpSysMajorVer == 7) && ( Machine == "e242.chtc.wisc.edu" ) || ( False
+initialdir = e242.chtc.wisc.edu
+queue
+
+requirements = True ) && (OpSysMajorVer == 6 || OpSysMajorVer == 7) && ( Machine == "e243.chtc.wisc.edu" ) || ( False
+initialdir = e243.chtc.wisc.edu
+queue
+
+requirements = True ) && (OpSysMajorVer == 6 || OpSysMajorVer == 7) && ( Machine == "e244.chtc.wisc.edu" ) || ( False
+initialdir = e244.chtc.wisc.edu
+queue
+
+requirements = True ) && (OpSysMajorVer == 6 || OpSysMajorVer == 7) && ( Machine == "e245.chtc.wisc.edu" ) || ( False
+initialdir = e245.chtc.wisc.edu
+queue
+
+requirements = True ) && (OpSysMajorVer == 6 || OpSysMajorVer == 7) && ( Machine == "e246.chtc.wisc.edu" ) || ( False
+initialdir = e246.chtc.wisc.edu
+queue
+
+requirements = True ) && (OpSysMajorVer == 6 || OpSysMajorVer == 7) && ( Machine == "e247.chtc.wisc.edu" ) || ( False
+initialdir = e247.chtc.wisc.edu
+queue
+
+requirements = True ) && (OpSysMajorVer == 6 || OpSysMajorVer == 7) && ( Machine == "e248.chtc.wisc.edu" ) || ( False
+initialdir = e248.chtc.wisc.edu
+queue
+
+requirements = True ) && (OpSysMajorVer == 6 || OpSysMajorVer == 7) && ( Machine == "e249.chtc.wisc.edu" ) || ( False
+initialdir = e249.chtc.wisc.edu
+queue
+
+requirements = True ) && (OpSysMajorVer == 6 || OpSysMajorVer == 7) && ( Machine == "e250.chtc.wisc.edu" ) || ( False
+initialdir = e250.chtc.wisc.edu
+queue
+
+requirements = True ) && (OpSysMajorVer == 6 || OpSysMajorVer == 7) && ( Machine == "e251.chtc.wisc.edu" ) || ( False
+initialdir = e251.chtc.wisc.edu
+queue
+
+requirements = True ) && (OpSysMajorVer == 6 || OpSysMajorVer == 7) && ( Machine == "e252.chtc.wisc.edu" ) || ( False
+initialdir = e252.chtc.wisc.edu
+queue
+
+requirements = True ) && (OpSysMajorVer == 6 || OpSysMajorVer == 7) && ( Machine == "e253.chtc.wisc.edu" ) || ( False
+initialdir = e253.chtc.wisc.edu
+queue
+
+requirements = True ) && (OpSysMajorVer == 6 || OpSysMajorVer == 7) && ( Machine == "e254.chtc.wisc.edu" ) || ( False
+initialdir = e254.chtc.wisc.edu
+queue
+
+requirements = True ) && (OpSysMajorVer == 6 || OpSysMajorVer == 7) && ( Machine == "e255.chtc.wisc.edu" ) || ( False
+initialdir = e255.chtc.wisc.edu
+queue
+
+requirements = True ) && (OpSysMajorVer == 6 || OpSysMajorVer == 7) && ( Machine == "e256.chtc.wisc.edu" ) || ( False
+initialdir = e256.chtc.wisc.edu
+queue
+
+requirements = True ) && (OpSysMajorVer == 6 || OpSysMajorVer == 7) && ( Machine == "e258.chtc.wisc.edu" ) || ( False
+initialdir = e258.chtc.wisc.edu
+queue
+
+requirements = True ) && (OpSysMajorVer == 6 || OpSysMajorVer == 7) && ( Machine == "e259.chtc.wisc.edu" ) || ( False
+initialdir = e259.chtc.wisc.edu
+queue
+
+requirements = True ) && (OpSysMajorVer == 6 || OpSysMajorVer == 7) && ( Machine == "e260.chtc.wisc.edu" ) || ( False
+initialdir = e260.chtc.wisc.edu
+queue
+
+requirements = True ) && (OpSysMajorVer == 6 || OpSysMajorVer == 7) && ( Machine == "e261.chtc.wisc.edu" ) || ( False
+initialdir = e261.chtc.wisc.edu
+queue
+
+requirements = True ) && (OpSysMajorVer == 6 || OpSysMajorVer == 7) && ( Machine == "e262.chtc.wisc.edu" ) || ( False
+initialdir = e262.chtc.wisc.edu
+queue
+
+requirements = True ) && (OpSysMajorVer == 6 || OpSysMajorVer == 7) && ( Machine == "e263.chtc.wisc.edu" ) || ( False
+initialdir = e263.chtc.wisc.edu
+queue
+
+requirements = True ) && (OpSysMajorVer == 6 || OpSysMajorVer == 7) && ( Machine == "e265.chtc.wisc.edu" ) || ( False
+initialdir = e265.chtc.wisc.edu
+queue
+
+requirements = True ) && (OpSysMajorVer == 6 || OpSysMajorVer == 7) && ( Machine == "e266.chtc.wisc.edu" ) || ( False
+initialdir = e266.chtc.wisc.edu
+queue
+
+requirements = True ) && (OpSysMajorVer == 6 || OpSysMajorVer == 7) && ( Machine == "e267.chtc.wisc.edu" ) || ( False
+initialdir = e267.chtc.wisc.edu
+queue
+
+requirements = True ) && (OpSysMajorVer == 6 || OpSysMajorVer == 7) && ( Machine == "e268.chtc.wisc.edu" ) || ( False
+initialdir = e268.chtc.wisc.edu
+queue
+
+requirements = True ) && (OpSysMajorVer == 6 || OpSysMajorVer == 7) && ( Machine == "e269.chtc.wisc.edu" ) || ( False
+initialdir = e269.chtc.wisc.edu
+queue
+
+requirements = True ) && (OpSysMajorVer == 6 || OpSysMajorVer == 7) && ( Machine == "e270.chtc.wisc.edu" ) || ( False
+initialdir = e270.chtc.wisc.edu
+queue
+
+requirements = True ) && (OpSysMajorVer == 6 || OpSysMajorVer == 7) && ( Machine == "e271.chtc.wisc.edu" ) || ( False
+initialdir = e271.chtc.wisc.edu
+queue
+
+requirements = True ) && (OpSysMajorVer == 6 || OpSysMajorVer == 7) && ( Machine == "e272.chtc.wisc.edu" ) || ( False
+initialdir = e272.chtc.wisc.edu
+queue
+
+requirements = True ) && (OpSysMajorVer == 6 || OpSysMajorVer == 7) && ( Machine == "e273.chtc.wisc.edu" ) || ( False
+initialdir = e273.chtc.wisc.edu
+queue
+
+requirements = True ) && (OpSysMajorVer == 6 || OpSysMajorVer == 7) && ( Machine == "e274.chtc.wisc.edu" ) || ( False
+initialdir = e274.chtc.wisc.edu
+queue
+
+requirements = True ) && (OpSysMajorVer == 6 || OpSysMajorVer == 7) && ( Machine == "e275.chtc.wisc.edu" ) || ( False
+initialdir = e275.chtc.wisc.edu
+queue
+
+requirements = True ) && (OpSysMajorVer == 6 || OpSysMajorVer == 7) && ( Machine == "e276.chtc.wisc.edu" ) || ( False
+initialdir = e276.chtc.wisc.edu
+queue
+
+requirements = True ) && (OpSysMajorVer == 6 || OpSysMajorVer == 7) && ( Machine == "e277.chtc.wisc.edu" ) || ( False
+initialdir = e277.chtc.wisc.edu
+queue
+
+requirements = True ) && (OpSysMajorVer == 6 || OpSysMajorVer == 7) && ( Machine == "e278.chtc.wisc.edu" ) || ( False
+initialdir = e278.chtc.wisc.edu
+queue
+
+requirements = True ) && (OpSysMajorVer == 6 || OpSysMajorVer == 7) && ( Machine == "e279.chtc.wisc.edu" ) || ( False
+initialdir = e279.chtc.wisc.edu
+queue
+
+requirements = True ) && (OpSysMajorVer == 6 || OpSysMajorVer == 7) && ( Machine == "e280.chtc.wisc.edu" ) || ( False
+initialdir = e280.chtc.wisc.edu
+queue
+
+requirements = True ) && (OpSysMajorVer == 6 || OpSysMajorVer == 7) && ( Machine == "e281.chtc.wisc.edu" ) || ( False
+initialdir = e281.chtc.wisc.edu
+queue
+
+requirements = True ) && (OpSysMajorVer == 6 || OpSysMajorVer == 7) && ( Machine == "e282.chtc.wisc.edu" ) || ( False
+initialdir = e282.chtc.wisc.edu
+queue
+
+requirements = True ) && (OpSysMajorVer == 6 || OpSysMajorVer == 7) && ( Machine == "e283.chtc.wisc.edu" ) || ( False
+initialdir = e283.chtc.wisc.edu
+queue
+
+requirements = True ) && (OpSysMajorVer == 6 || OpSysMajorVer == 7) && ( Machine == "e284.chtc.wisc.edu" ) || ( False
+initialdir = e284.chtc.wisc.edu
+queue
+
+requirements = True ) && (OpSysMajorVer == 6 || OpSysMajorVer == 7) && ( Machine == "e285.chtc.wisc.edu" ) || ( False
+initialdir = e285.chtc.wisc.edu
+queue
+
+requirements = True ) && (OpSysMajorVer == 6 || OpSysMajorVer == 7) && ( Machine == "e286.chtc.wisc.edu" ) || ( False
+initialdir = e286.chtc.wisc.edu
+queue
+
+requirements = True ) && (OpSysMajorVer == 6 || OpSysMajorVer == 7) && ( Machine == "e287.chtc.wisc.edu" ) || ( False
+initialdir = e287.chtc.wisc.edu
+queue
+
+requirements = True ) && (OpSysMajorVer == 6 || OpSysMajorVer == 7) && ( Machine == "e288.chtc.wisc.edu" ) || ( False
+initialdir = e288.chtc.wisc.edu
+queue
+
+requirements = True ) && (OpSysMajorVer == 6 || OpSysMajorVer == 7) && ( Machine == "e290.chtc.wisc.edu" ) || ( False
+initialdir = e290.chtc.wisc.edu
+queue
+
+requirements = True ) && (OpSysMajorVer == 6 || OpSysMajorVer == 7) && ( Machine == "e291.chtc.wisc.edu" ) || ( False
+initialdir = e291.chtc.wisc.edu
+queue
+
+requirements = True ) && (OpSysMajorVer == 6 || OpSysMajorVer == 7) && ( Machine == "e292.chtc.wisc.edu" ) || ( False
+initialdir = e292.chtc.wisc.edu
+queue
+
+requirements = True ) && (OpSysMajorVer == 6 || OpSysMajorVer == 7) && ( Machine == "e293.chtc.wisc.edu" ) || ( False
+initialdir = e293.chtc.wisc.edu
+queue
+
+requirements = True ) && (OpSysMajorVer == 6 || OpSysMajorVer == 7) && ( Machine == "e294.chtc.wisc.edu" ) || ( False
+initialdir = e294.chtc.wisc.edu
+queue
+
+requirements = True ) && (OpSysMajorVer == 6 || OpSysMajorVer == 7) && ( Machine == "e295.chtc.wisc.edu" ) || ( False
+initialdir = e295.chtc.wisc.edu
+queue
+
+requirements = True ) && (OpSysMajorVer == 6 || OpSysMajorVer == 7) && ( Machine == "e296.chtc.wisc.edu" ) || ( False
+initialdir = e296.chtc.wisc.edu
+queue
+
+requirements = True ) && (OpSysMajorVer == 6 || OpSysMajorVer == 7) && ( Machine == "e298.chtc.wisc.edu" ) || ( False
+initialdir = e298.chtc.wisc.edu
+queue
+
+requirements = True ) && (OpSysMajorVer == 6 || OpSysMajorVer == 7) && ( Machine == "e300.chtc.wisc.edu" ) || ( False
+initialdir = e300.chtc.wisc.edu
+queue
+
+requirements = True ) && (OpSysMajorVer == 6 || OpSysMajorVer == 7) && ( Machine == "e301.chtc.wisc.edu" ) || ( False
+initialdir = e301.chtc.wisc.edu
+queue
+
+requirements = True ) && (OpSysMajorVer == 6 || OpSysMajorVer == 7) && ( Machine == "e302.chtc.wisc.edu" ) || ( False
+initialdir = e302.chtc.wisc.edu
+queue
+
+requirements = True ) && (OpSysMajorVer == 6 || OpSysMajorVer == 7) && ( Machine == "e303.chtc.wisc.edu" ) || ( False
+initialdir = e303.chtc.wisc.edu
+queue
+
+requirements = True ) && (OpSysMajorVer == 6 || OpSysMajorVer == 7) && ( Machine == "e304.chtc.wisc.edu" ) || ( False
+initialdir = e304.chtc.wisc.edu
+queue
+
+requirements = True ) && (OpSysMajorVer == 6 || OpSysMajorVer == 7) && ( Machine == "e305.chtc.wisc.edu" ) || ( False
+initialdir = e305.chtc.wisc.edu
+queue
+
+requirements = True ) && (OpSysMajorVer == 6 || OpSysMajorVer == 7) && ( Machine == "e306.chtc.wisc.edu" ) || ( False
+initialdir = e306.chtc.wisc.edu
+queue
+
+requirements = True ) && (OpSysMajorVer == 6 || OpSysMajorVer == 7) && ( Machine == "e307.chtc.wisc.edu" ) || ( False
+initialdir = e307.chtc.wisc.edu
+queue
+
+requirements = True ) && (OpSysMajorVer == 6 || OpSysMajorVer == 7) && ( Machine == "e308.chtc.wisc.edu" ) || ( False
+initialdir = e308.chtc.wisc.edu
+queue
+
+requirements = True ) && (OpSysMajorVer == 6 || OpSysMajorVer == 7) && ( Machine == "e309.chtc.wisc.edu" ) || ( False
+initialdir = e309.chtc.wisc.edu
+queue
+
+requirements = True ) && (OpSysMajorVer == 6 || OpSysMajorVer == 7) && ( Machine == "e310.chtc.wisc.edu" ) || ( False
+initialdir = e310.chtc.wisc.edu
+queue
+
+requirements = True ) && (OpSysMajorVer == 6 || OpSysMajorVer == 7) && ( Machine == "e311.chtc.wisc.edu" ) || ( False
+initialdir = e311.chtc.wisc.edu
+queue
+
+requirements = True ) && (OpSysMajorVer == 6 || OpSysMajorVer == 7) && ( Machine == "e312.chtc.wisc.edu" ) || ( False
+initialdir = e312.chtc.wisc.edu
+queue
+
+requirements = True ) && (OpSysMajorVer == 6 || OpSysMajorVer == 7) && ( Machine == "e313.chtc.wisc.edu" ) || ( False
+initialdir = e313.chtc.wisc.edu
+queue
+
+requirements = True ) && (OpSysMajorVer == 6 || OpSysMajorVer == 7) && ( Machine == "e314.chtc.wisc.edu" ) || ( False
+initialdir = e314.chtc.wisc.edu
+queue
+
+requirements = True ) && (OpSysMajorVer == 6 || OpSysMajorVer == 7) && ( Machine == "e315.chtc.wisc.edu" ) || ( False
+initialdir = e315.chtc.wisc.edu
+queue
+
+requirements = True ) && (OpSysMajorVer == 6 || OpSysMajorVer == 7) && ( Machine == "e316.chtc.wisc.edu" ) || ( False
+initialdir = e316.chtc.wisc.edu
+queue
+
+requirements = True ) && (OpSysMajorVer == 6 || OpSysMajorVer == 7) && ( Machine == "e317.chtc.wisc.edu" ) || ( False
+initialdir = e317.chtc.wisc.edu
+queue
+
+requirements = True ) && (OpSysMajorVer == 6 || OpSysMajorVer == 7) && ( Machine == "e318.chtc.wisc.edu" ) || ( False
+initialdir = e318.chtc.wisc.edu
+queue
+
+requirements = True ) && (OpSysMajorVer == 6 || OpSysMajorVer == 7) && ( Machine == "e319.chtc.wisc.edu" ) || ( False
+initialdir = e319.chtc.wisc.edu
+queue
+
+requirements = True ) && (OpSysMajorVer == 6 || OpSysMajorVer == 7) && ( Machine == "e320.chtc.wisc.edu" ) || ( False
+initialdir = e320.chtc.wisc.edu
+queue
+
+requirements = True ) && (OpSysMajorVer == 6 || OpSysMajorVer == 7) && ( Machine == "e321.chtc.wisc.edu" ) || ( False
+initialdir = e321.chtc.wisc.edu
+queue
+
+requirements = True ) && (OpSysMajorVer == 6 || OpSysMajorVer == 7) && ( Machine == "e322.chtc.wisc.edu" ) || ( False
+initialdir = e322.chtc.wisc.edu
+queue
+
+requirements = True ) && (OpSysMajorVer == 6 || OpSysMajorVer == 7) && ( Machine == "e323.chtc.wisc.edu" ) || ( False
+initialdir = e323.chtc.wisc.edu
+queue
+
+requirements = True ) && (OpSysMajorVer == 6 || OpSysMajorVer == 7) && ( Machine == "e324.chtc.wisc.edu" ) || ( False
+initialdir = e324.chtc.wisc.edu
+queue
+
+requirements = True ) && (OpSysMajorVer == 6 || OpSysMajorVer == 7) && ( Machine == "e325.chtc.wisc.edu" ) || ( False
+initialdir = e325.chtc.wisc.edu
+queue
+
+requirements = True ) && (OpSysMajorVer == 6 || OpSysMajorVer == 7) && ( Machine == "e326.chtc.wisc.edu" ) || ( False
+initialdir = e326.chtc.wisc.edu
+queue
+
+requirements = True ) && (OpSysMajorVer == 6 || OpSysMajorVer == 7) && ( Machine == "e327.chtc.wisc.edu" ) || ( False
+initialdir = e327.chtc.wisc.edu
+queue
+
+requirements = True ) && (OpSysMajorVer == 6 || OpSysMajorVer == 7) && ( Machine == "e328.chtc.wisc.edu" ) || ( False
+initialdir = e328.chtc.wisc.edu
+queue
+
+requirements = True ) && (OpSysMajorVer == 6 || OpSysMajorVer == 7) && ( Machine == "e329.chtc.wisc.edu" ) || ( False
+initialdir = e329.chtc.wisc.edu
+queue
+
+requirements = True ) && (OpSysMajorVer == 6 || OpSysMajorVer == 7) && ( Machine == "e330.chtc.wisc.edu" ) || ( False
+initialdir = e330.chtc.wisc.edu
+queue
+
+requirements = True ) && (OpSysMajorVer == 6 || OpSysMajorVer == 7) && ( Machine == "e331.chtc.wisc.edu" ) || ( False
+initialdir = e331.chtc.wisc.edu
+queue
+
+requirements = True ) && (OpSysMajorVer == 6 || OpSysMajorVer == 7) && ( Machine == "e332.chtc.wisc.edu" ) || ( False
+initialdir = e332.chtc.wisc.edu
+queue
+
+requirements = True ) && (OpSysMajorVer == 6 || OpSysMajorVer == 7) && ( Machine == "e333.chtc.wisc.edu" ) || ( False
+initialdir = e333.chtc.wisc.edu
+queue
+
+requirements = True ) && (OpSysMajorVer == 6 || OpSysMajorVer == 7) && ( Machine == "e334.chtc.wisc.edu" ) || ( False
+initialdir = e334.chtc.wisc.edu
+queue
+
+requirements = True ) && (OpSysMajorVer == 6 || OpSysMajorVer == 7) && ( Machine == "e335.chtc.wisc.edu" ) || ( False
+initialdir = e335.chtc.wisc.edu
+queue
+
+requirements = True ) && (OpSysMajorVer == 6 || OpSysMajorVer == 7) && ( Machine == "e336.chtc.wisc.edu" ) || ( False
+initialdir = e336.chtc.wisc.edu
+queue
+
+requirements = True ) && (OpSysMajorVer == 6 || OpSysMajorVer == 7) && ( Machine == "e337.chtc.wisc.edu" ) || ( False
+initialdir = e337.chtc.wisc.edu
+queue
+
+requirements = True ) && (OpSysMajorVer == 6 || OpSysMajorVer == 7) && ( Machine == "e338.chtc.wisc.edu" ) || ( False
+initialdir = e338.chtc.wisc.edu
+queue
+
+requirements = True ) && (OpSysMajorVer == 6 || OpSysMajorVer == 7) && ( Machine == "e339.chtc.wisc.edu" ) || ( False
+initialdir = e339.chtc.wisc.edu
+queue
+
+requirements = True ) && (OpSysMajorVer == 6 || OpSysMajorVer == 7) && ( Machine == "e340.chtc.wisc.edu" ) || ( False
+initialdir = e340.chtc.wisc.edu
+queue
+
+requirements = True ) && (OpSysMajorVer == 6 || OpSysMajorVer == 7) && ( Machine == "e341.chtc.wisc.edu" ) || ( False
+initialdir = e341.chtc.wisc.edu
+queue
+
+requirements = True ) && (OpSysMajorVer == 6 || OpSysMajorVer == 7) && ( Machine == "e342.chtc.wisc.edu" ) || ( False
+initialdir = e342.chtc.wisc.edu
+queue
+
+requirements = True ) && (OpSysMajorVer == 6 || OpSysMajorVer == 7) && ( Machine == "e343.chtc.wisc.edu" ) || ( False
+initialdir = e343.chtc.wisc.edu
+queue
+
+requirements = True ) && (OpSysMajorVer == 6 || OpSysMajorVer == 7) && ( Machine == "e344.chtc.wisc.edu" ) || ( False
+initialdir = e344.chtc.wisc.edu
+queue
+
+requirements = True ) && (OpSysMajorVer == 6 || OpSysMajorVer == 7) && ( Machine == "e345.chtc.wisc.edu" ) || ( False
+initialdir = e345.chtc.wisc.edu
+queue
+
+requirements = True ) && (OpSysMajorVer == 6 || OpSysMajorVer == 7) && ( Machine == "e347.chtc.wisc.edu" ) || ( False
+initialdir = e347.chtc.wisc.edu
+queue
+
+requirements = True ) && (OpSysMajorVer == 6 || OpSysMajorVer == 7) && ( Machine == "e348.chtc.wisc.edu" ) || ( False
+initialdir = e348.chtc.wisc.edu
+queue
+
+requirements = True ) && (OpSysMajorVer == 6 || OpSysMajorVer == 7) && ( Machine == "e349.chtc.wisc.edu" ) || ( False
+initialdir = e349.chtc.wisc.edu
+queue
+
+requirements = True ) && (OpSysMajorVer == 6 || OpSysMajorVer == 7) && ( Machine == "e350.chtc.wisc.edu" ) || ( False
+initialdir = e350.chtc.wisc.edu
+queue
+
+requirements = True ) && (OpSysMajorVer == 6 || OpSysMajorVer == 7) && ( Machine == "e351.chtc.wisc.edu" ) || ( False
+initialdir = e351.chtc.wisc.edu
+queue
+
+requirements = True ) && (OpSysMajorVer == 6 || OpSysMajorVer == 7) && ( Machine == "e352.chtc.wisc.edu" ) || ( False
+initialdir = e352.chtc.wisc.edu
+queue
+
+requirements = True ) && (OpSysMajorVer == 6 || OpSysMajorVer == 7) && ( Machine == "e353.chtc.wisc.edu" ) || ( False
+initialdir = e353.chtc.wisc.edu
+queue
+
+requirements = True ) && (OpSysMajorVer == 6 || OpSysMajorVer == 7) && ( Machine == "e354.chtc.wisc.edu" ) || ( False
+initialdir = e354.chtc.wisc.edu
+queue
+
+requirements = True ) && (OpSysMajorVer == 6 || OpSysMajorVer == 7) && ( Machine == "e355.chtc.wisc.edu" ) || ( False
+initialdir = e355.chtc.wisc.edu
+queue
+
+requirements = True ) && (OpSysMajorVer == 6 || OpSysMajorVer == 7) && ( Machine == "e356.chtc.wisc.edu" ) || ( False
+initialdir = e356.chtc.wisc.edu
+queue
+
+requirements = True ) && (OpSysMajorVer == 6 || OpSysMajorVer == 7) && ( Machine == "e357.chtc.wisc.edu" ) || ( False
+initialdir = e357.chtc.wisc.edu
+queue
+
+requirements = True ) && (OpSysMajorVer == 6 || OpSysMajorVer == 7) && ( Machine == "e358.chtc.wisc.edu" ) || ( False
+initialdir = e358.chtc.wisc.edu
+queue
+
+requirements = True ) && (OpSysMajorVer == 6 || OpSysMajorVer == 7) && ( Machine == "e359.chtc.wisc.edu" ) || ( False
+initialdir = e359.chtc.wisc.edu
+queue
+
+requirements = True ) && (OpSysMajorVer == 6 || OpSysMajorVer == 7) && ( Machine == "e360.chtc.wisc.edu" ) || ( False
+initialdir = e360.chtc.wisc.edu
+queue
+
+requirements = True ) && (OpSysMajorVer == 6 || OpSysMajorVer == 7) && ( Machine == "e361.chtc.wisc.edu" ) || ( False
+initialdir = e361.chtc.wisc.edu
+queue
+
+requirements = True ) && (OpSysMajorVer == 6 || OpSysMajorVer == 7) && ( Machine == "e362.chtc.wisc.edu" ) || ( False
+initialdir = e362.chtc.wisc.edu
+queue
+
+requirements = True ) && (OpSysMajorVer == 6 || OpSysMajorVer == 7) && ( Machine == "e363.chtc.wisc.edu" ) || ( False
+initialdir = e363.chtc.wisc.edu
+queue
+
+requirements = True ) && (OpSysMajorVer == 6 || OpSysMajorVer == 7) && ( Machine == "e364.chtc.wisc.edu" ) || ( False
+initialdir = e364.chtc.wisc.edu
+queue
+
+requirements = True ) && (OpSysMajorVer == 6 || OpSysMajorVer == 7) && ( Machine == "e365.chtc.wisc.edu" ) || ( False
+initialdir = e365.chtc.wisc.edu
+queue
+
+requirements = True ) && (OpSysMajorVer == 6 || OpSysMajorVer == 7) && ( Machine == "e366.chtc.wisc.edu" ) || ( False
+initialdir = e366.chtc.wisc.edu
+queue
+
+requirements = True ) && (OpSysMajorVer == 6 || OpSysMajorVer == 7) && ( Machine == "e367.chtc.wisc.edu" ) || ( False
+initialdir = e367.chtc.wisc.edu
+queue
+
+requirements = True ) && (OpSysMajorVer == 6 || OpSysMajorVer == 7) && ( Machine == "e368.chtc.wisc.edu" ) || ( False
+initialdir = e368.chtc.wisc.edu
+queue
+
+requirements = True ) && (OpSysMajorVer == 6 || OpSysMajorVer == 7) && ( Machine == "e369.chtc.wisc.edu" ) || ( False
+initialdir = e369.chtc.wisc.edu
+queue
+
+requirements = True ) && (OpSysMajorVer == 6 || OpSysMajorVer == 7) && ( Machine == "e370.chtc.wisc.edu" ) || ( False
+initialdir = e370.chtc.wisc.edu
+queue
+
+requirements = True ) && (OpSysMajorVer == 6 || OpSysMajorVer == 7) && ( Machine == "e371.chtc.wisc.edu" ) || ( False
+initialdir = e371.chtc.wisc.edu
+queue
+
+requirements = True ) && (OpSysMajorVer == 6 || OpSysMajorVer == 7) && ( Machine == "e372.chtc.wisc.edu" ) || ( False
+initialdir = e372.chtc.wisc.edu
+queue
+
+requirements = True ) && (OpSysMajorVer == 6 || OpSysMajorVer == 7) && ( Machine == "e373.chtc.wisc.edu" ) || ( False
+initialdir = e373.chtc.wisc.edu
+queue
+
+requirements = True ) && (OpSysMajorVer == 6 || OpSysMajorVer == 7) && ( Machine == "e374.chtc.wisc.edu" ) || ( False
+initialdir = e374.chtc.wisc.edu
+queue
+
+requirements = True ) && (OpSysMajorVer == 6 || OpSysMajorVer == 7) && ( Machine == "e375.chtc.wisc.edu" ) || ( False
+initialdir = e375.chtc.wisc.edu
+queue
+
+requirements = True ) && (OpSysMajorVer == 6 || OpSysMajorVer == 7) && ( Machine == "e376.chtc.wisc.edu" ) || ( False
+initialdir = e376.chtc.wisc.edu
+queue
+
+requirements = True ) && (OpSysMajorVer == 6 || OpSysMajorVer == 7) && ( Machine == "e377.chtc.wisc.edu" ) || ( False
+initialdir = e377.chtc.wisc.edu
+queue
+
+requirements = True ) && (OpSysMajorVer == 6 || OpSysMajorVer == 7) && ( Machine == "e378.chtc.wisc.edu" ) || ( False
+initialdir = e378.chtc.wisc.edu
+queue
+
+requirements = True ) && (OpSysMajorVer == 6 || OpSysMajorVer == 7) && ( Machine == "e379.chtc.wisc.edu" ) || ( False
+initialdir = e379.chtc.wisc.edu
+queue
+
+requirements = True ) && (OpSysMajorVer == 6 || OpSysMajorVer == 7) && ( Machine == "e380.chtc.wisc.edu" ) || ( False
+initialdir = e380.chtc.wisc.edu
+queue
+
+requirements = True ) && (OpSysMajorVer == 6 || OpSysMajorVer == 7) && ( Machine == "e381.chtc.wisc.edu" ) || ( False
+initialdir = e381.chtc.wisc.edu
+queue
+
+requirements = True ) && (OpSysMajorVer == 6 || OpSysMajorVer == 7) && ( Machine == "e382.chtc.wisc.edu" ) || ( False
+initialdir = e382.chtc.wisc.edu
+queue
+
+requirements = True ) && (OpSysMajorVer == 6 || OpSysMajorVer == 7) && ( Machine == "e383.chtc.wisc.edu" ) || ( False
+initialdir = e383.chtc.wisc.edu
+queue
+
+requirements = True ) && (OpSysMajorVer == 6 || OpSysMajorVer == 7) && ( Machine == "e384.chtc.wisc.edu" ) || ( False
+initialdir = e384.chtc.wisc.edu
+queue
+
+requirements = True ) && (OpSysMajorVer == 6 || OpSysMajorVer == 7) && ( Machine == "e385.chtc.wisc.edu" ) || ( False
+initialdir = e385.chtc.wisc.edu
+queue
+
+requirements = True ) && (OpSysMajorVer == 6 || OpSysMajorVer == 7) && ( Machine == "e386.chtc.wisc.edu" ) || ( False
+initialdir = e386.chtc.wisc.edu
+queue
+
+requirements = True ) && (OpSysMajorVer == 6 || OpSysMajorVer == 7) && ( Machine == "e387.chtc.wisc.edu" ) || ( False
+initialdir = e387.chtc.wisc.edu
+queue
+
+requirements = True ) && (OpSysMajorVer == 6 || OpSysMajorVer == 7) && ( Machine == "e388.chtc.wisc.edu" ) || ( False
+initialdir = e388.chtc.wisc.edu
+queue
+
+requirements = True ) && (OpSysMajorVer == 6 || OpSysMajorVer == 7) && ( Machine == "e389.chtc.wisc.edu" ) || ( False
+initialdir = e389.chtc.wisc.edu
+queue
+
+requirements = True ) && (OpSysMajorVer == 6 || OpSysMajorVer == 7) && ( Machine == "e390.chtc.wisc.edu" ) || ( False
+initialdir = e390.chtc.wisc.edu
+queue
+
+requirements = True ) && (OpSysMajorVer == 6 || OpSysMajorVer == 7) && ( Machine == "e391.chtc.wisc.edu" ) || ( False
+initialdir = e391.chtc.wisc.edu
+queue
+
+requirements = True ) && (OpSysMajorVer == 6 || OpSysMajorVer == 7) && ( Machine == "e392.chtc.wisc.edu" ) || ( False
+initialdir = e392.chtc.wisc.edu
+queue
+
+requirements = True ) && (OpSysMajorVer == 6 || OpSysMajorVer == 7) && ( Machine == "e393.chtc.wisc.edu" ) || ( False
+initialdir = e393.chtc.wisc.edu
+queue
+
+requirements = True ) && (OpSysMajorVer == 6 || OpSysMajorVer == 7) && ( Machine == "e394.chtc.wisc.edu" ) || ( False
+initialdir = e394.chtc.wisc.edu
+queue
+
+requirements = True ) && (OpSysMajorVer == 6 || OpSysMajorVer == 7) && ( Machine == "e395.chtc.wisc.edu" ) || ( False
+initialdir = e395.chtc.wisc.edu
+queue
+
+requirements = True ) && (OpSysMajorVer == 6 || OpSysMajorVer == 7) && ( Machine == "e396.chtc.wisc.edu" ) || ( False
+initialdir = e396.chtc.wisc.edu
+queue
+
+requirements = True ) && (OpSysMajorVer == 6 || OpSysMajorVer == 7) && ( Machine == "e397.chtc.wisc.edu" ) || ( False
+initialdir = e397.chtc.wisc.edu
+queue
+
+requirements = True ) && (OpSysMajorVer == 6 || OpSysMajorVer == 7) && ( Machine == "e398.chtc.wisc.edu" ) || ( False
+initialdir = e398.chtc.wisc.edu
+queue
+
+requirements = True ) && (OpSysMajorVer == 6 || OpSysMajorVer == 7) && ( Machine == "e399.chtc.wisc.edu" ) || ( False
+initialdir = e399.chtc.wisc.edu
+queue
+
+requirements = True ) && (OpSysMajorVer == 6 || OpSysMajorVer == 7) && ( Machine == "e400.chtc.wisc.edu" ) || ( False
+initialdir = e400.chtc.wisc.edu
+queue
+
+requirements = True ) && (OpSysMajorVer == 6 || OpSysMajorVer == 7) && ( Machine == "e401.chtc.wisc.edu" ) || ( False
+initialdir = e401.chtc.wisc.edu
+queue
+
+requirements = True ) && (OpSysMajorVer == 6 || OpSysMajorVer == 7) && ( Machine == "e402.chtc.wisc.edu" ) || ( False
+initialdir = e402.chtc.wisc.edu
+queue
+
+requirements = True ) && (OpSysMajorVer == 6 || OpSysMajorVer == 7) && ( Machine == "e403.chtc.wisc.edu" ) || ( False
+initialdir = e403.chtc.wisc.edu
+queue
+
+requirements = True ) && (OpSysMajorVer == 6 || OpSysMajorVer == 7) && ( Machine == "e404.chtc.wisc.edu" ) || ( False
+initialdir = e404.chtc.wisc.edu
+queue
+
+requirements = True ) && (OpSysMajorVer == 6 || OpSysMajorVer == 7) && ( Machine == "e405.chtc.wisc.edu" ) || ( False
+initialdir = e405.chtc.wisc.edu
+queue
+
+requirements = True ) && (OpSysMajorVer == 6 || OpSysMajorVer == 7) && ( Machine == "e406.chtc.wisc.edu" ) || ( False
+initialdir = e406.chtc.wisc.edu
+queue
+
+requirements = True ) && (OpSysMajorVer == 6 || OpSysMajorVer == 7) && ( Machine == "e407.chtc.wisc.edu" ) || ( False
+initialdir = e407.chtc.wisc.edu
+queue
+
+requirements = True ) && (OpSysMajorVer == 6 || OpSysMajorVer == 7) && ( Machine == "e408.chtc.wisc.edu" ) || ( False
+initialdir = e408.chtc.wisc.edu
+queue
+
+requirements = True ) && (OpSysMajorVer == 6 || OpSysMajorVer == 7) && ( Machine == "e409.chtc.wisc.edu" ) || ( False
+initialdir = e409.chtc.wisc.edu
+queue
+
+requirements = True ) && (OpSysMajorVer == 6 || OpSysMajorVer == 7) && ( Machine == "e410.chtc.wisc.edu" ) || ( False
+initialdir = e410.chtc.wisc.edu
+queue
+
+requirements = True ) && (OpSysMajorVer == 6 || OpSysMajorVer == 7) && ( Machine == "e411.chtc.wisc.edu" ) || ( False
+initialdir = e411.chtc.wisc.edu
+queue
+
+requirements = True ) && (OpSysMajorVer == 6 || OpSysMajorVer == 7) && ( Machine == "e412.chtc.wisc.edu" ) || ( False
+initialdir = e412.chtc.wisc.edu
+queue
+
+requirements = True ) && (OpSysMajorVer == 6 || OpSysMajorVer == 7) && ( Machine == "e413.chtc.wisc.edu" ) || ( False
+initialdir = e413.chtc.wisc.edu
+queue
+
+requirements = True ) && (OpSysMajorVer == 6 || OpSysMajorVer == 7) && ( Machine == "e414.chtc.wisc.edu" ) || ( False
+initialdir = e414.chtc.wisc.edu
+queue
+
+requirements = True ) && (OpSysMajorVer == 6 || OpSysMajorVer == 7) && ( Machine == "e415.chtc.wisc.edu" ) || ( False
+initialdir = e415.chtc.wisc.edu
+queue
+
+requirements = True ) && (OpSysMajorVer == 6 || OpSysMajorVer == 7) && ( Machine == "e416.chtc.wisc.edu" ) || ( False
+initialdir = e416.chtc.wisc.edu
+queue
+
+requirements = True ) && (OpSysMajorVer == 6 || OpSysMajorVer == 7) && ( Machine == "e417.chtc.wisc.edu" ) || ( False
+initialdir = e417.chtc.wisc.edu
+queue
+
+requirements = True ) && (OpSysMajorVer == 6 || OpSysMajorVer == 7) && ( Machine == "e418.chtc.wisc.edu" ) || ( False
+initialdir = e418.chtc.wisc.edu
+queue
+
+requirements = True ) && (OpSysMajorVer == 6 || OpSysMajorVer == 7) && ( Machine == "e419.chtc.wisc.edu" ) || ( False
+initialdir = e419.chtc.wisc.edu
+queue
+
+requirements = True ) && (OpSysMajorVer == 6 || OpSysMajorVer == 7) && ( Machine == "e420.chtc.wisc.edu" ) || ( False
+initialdir = e420.chtc.wisc.edu
+queue
+
+requirements = True ) && (OpSysMajorVer == 6 || OpSysMajorVer == 7) && ( Machine == "e421.chtc.wisc.edu" ) || ( False
+initialdir = e421.chtc.wisc.edu
+queue
+
+requirements = True ) && (OpSysMajorVer == 6 || OpSysMajorVer == 7) && ( Machine == "e422.chtc.wisc.edu" ) || ( False
+initialdir = e422.chtc.wisc.edu
+queue
+
+requirements = True ) && (OpSysMajorVer == 6 || OpSysMajorVer == 7) && ( Machine == "e423.chtc.wisc.edu" ) || ( False
+initialdir = e423.chtc.wisc.edu
+queue
+
+requirements = True ) && (OpSysMajorVer == 6 || OpSysMajorVer == 7) && ( Machine == "e424.chtc.wisc.edu" ) || ( False
+initialdir = e424.chtc.wisc.edu
+queue
+
+requirements = True ) && (OpSysMajorVer == 6 || OpSysMajorVer == 7) && ( Machine == "e425.chtc.wisc.edu" ) || ( False
+initialdir = e425.chtc.wisc.edu
+queue
+
+requirements = True ) && (OpSysMajorVer == 6 || OpSysMajorVer == 7) && ( Machine == "e426.chtc.wisc.edu" ) || ( False
+initialdir = e426.chtc.wisc.edu
+queue
+
+requirements = True ) && (OpSysMajorVer == 6 || OpSysMajorVer == 7) && ( Machine == "e427.chtc.wisc.edu" ) || ( False
+initialdir = e427.chtc.wisc.edu
+queue
+
+requirements = True ) && (OpSysMajorVer == 6 || OpSysMajorVer == 7) && ( Machine == "e428.chtc.wisc.edu" ) || ( False
+initialdir = e428.chtc.wisc.edu
+queue
+
+requirements = True ) && (OpSysMajorVer == 6 || OpSysMajorVer == 7) && ( Machine == "e429.chtc.wisc.edu" ) || ( False
+initialdir = e429.chtc.wisc.edu
+queue
+
+requirements = True ) && (OpSysMajorVer == 6 || OpSysMajorVer == 7) && ( Machine == "e430.chtc.wisc.edu" ) || ( False
+initialdir = e430.chtc.wisc.edu
+queue
+
+requirements = True ) && (OpSysMajorVer == 6 || OpSysMajorVer == 7) && ( Machine == "e431.chtc.wisc.edu" ) || ( False
+initialdir = e431.chtc.wisc.edu
+queue
+
+requirements = True ) && (OpSysMajorVer == 6 || OpSysMajorVer == 7) && ( Machine == "e432.chtc.wisc.edu" ) || ( False
+initialdir = e432.chtc.wisc.edu
+queue
+
+requirements = True ) && (OpSysMajorVer == 6 || OpSysMajorVer == 7) && ( Machine == "e433.chtc.wisc.edu" ) || ( False
+initialdir = e433.chtc.wisc.edu
+queue
+
+requirements = True ) && (OpSysMajorVer == 6 || OpSysMajorVer == 7) && ( Machine == "e434.chtc.wisc.edu" ) || ( False
+initialdir = e434.chtc.wisc.edu
+queue
+
+requirements = True ) && (OpSysMajorVer == 6 || OpSysMajorVer == 7) && ( Machine == "e435.chtc.wisc.edu" ) || ( False
+initialdir = e435.chtc.wisc.edu
+queue
+
+requirements = True ) && (OpSysMajorVer == 6 || OpSysMajorVer == 7) && ( Machine == "e436.chtc.wisc.edu" ) || ( False
+initialdir = e436.chtc.wisc.edu
+queue
+
+requirements = True ) && (OpSysMajorVer == 6 || OpSysMajorVer == 7) && ( Machine == "e437.chtc.wisc.edu" ) || ( False
+initialdir = e437.chtc.wisc.edu
+queue
+
+requirements = True ) && (OpSysMajorVer == 6 || OpSysMajorVer == 7) && ( Machine == "e438.chtc.wisc.edu" ) || ( False
+initialdir = e438.chtc.wisc.edu
+queue
+
+requirements = True ) && (OpSysMajorVer == 6 || OpSysMajorVer == 7) && ( Machine == "e439.chtc.wisc.edu" ) || ( False
+initialdir = e439.chtc.wisc.edu
+queue
+
+requirements = True ) && (OpSysMajorVer == 6 || OpSysMajorVer == 7) && ( Machine == "e441.chtc.wisc.edu" ) || ( False
+initialdir = e441.chtc.wisc.edu
+queue
+
+requirements = True ) && (OpSysMajorVer == 6 || OpSysMajorVer == 7) && ( Machine == "e442.chtc.wisc.edu" ) || ( False
+initialdir = e442.chtc.wisc.edu
+queue
+
+requirements = True ) && (OpSysMajorVer == 6 || OpSysMajorVer == 7) && ( Machine == "e443.chtc.wisc.edu" ) || ( False
+initialdir = e443.chtc.wisc.edu
+queue
+
+requirements = True ) && (OpSysMajorVer == 6 || OpSysMajorVer == 7) && ( Machine == "e444.chtc.wisc.edu" ) || ( False
+initialdir = e444.chtc.wisc.edu
+queue
+
+requirements = True ) && (OpSysMajorVer == 6 || OpSysMajorVer == 7) && ( Machine == "e445.chtc.wisc.edu" ) || ( False
+initialdir = e445.chtc.wisc.edu
+queue
+
+requirements = True ) && (OpSysMajorVer == 6 || OpSysMajorVer == 7) && ( Machine == "e446.chtc.wisc.edu" ) || ( False
+initialdir = e446.chtc.wisc.edu
+queue
+
+requirements = True ) && (OpSysMajorVer == 6 || OpSysMajorVer == 7) && ( Machine == "e447.chtc.wisc.edu" ) || ( False
+initialdir = e447.chtc.wisc.edu
+queue
+
+requirements = True ) && (OpSysMajorVer == 6 || OpSysMajorVer == 7) && ( Machine == "e448.chtc.wisc.edu" ) || ( False
+initialdir = e448.chtc.wisc.edu
+queue
+
+requirements = True ) && (OpSysMajorVer == 6 || OpSysMajorVer == 7) && ( Machine == "e449.chtc.wisc.edu" ) || ( False
+initialdir = e449.chtc.wisc.edu
+queue
+
+requirements = True ) && (OpSysMajorVer == 6 || OpSysMajorVer == 7) && ( Machine == "e450.chtc.wisc.edu" ) || ( False
+initialdir = e450.chtc.wisc.edu
+queue
+
+requirements = True ) && (OpSysMajorVer == 6 || OpSysMajorVer == 7) && ( Machine == "e451.chtc.wisc.edu" ) || ( False
+initialdir = e451.chtc.wisc.edu
+queue
+
+requirements = True ) && (OpSysMajorVer == 6 || OpSysMajorVer == 7) && ( Machine == "e452.chtc.wisc.edu" ) || ( False
+initialdir = e452.chtc.wisc.edu
+queue
+
+requirements = True ) && (OpSysMajorVer == 6 || OpSysMajorVer == 7) && ( Machine == "e453.chtc.wisc.edu" ) || ( False
+initialdir = e453.chtc.wisc.edu
+queue
+
+requirements = True ) && (OpSysMajorVer == 6 || OpSysMajorVer == 7) && ( Machine == "e454.chtc.wisc.edu" ) || ( False
+initialdir = e454.chtc.wisc.edu
+queue
+
+requirements = True ) && (OpSysMajorVer == 6 || OpSysMajorVer == 7) && ( Machine == "e455.chtc.wisc.edu" ) || ( False
+initialdir = e455.chtc.wisc.edu
+queue
+
+requirements = True ) && (OpSysMajorVer == 6 || OpSysMajorVer == 7) && ( Machine == "e456.chtc.wisc.edu" ) || ( False
+initialdir = e456.chtc.wisc.edu
+queue
+
+requirements = True ) && (OpSysMajorVer == 6 || OpSysMajorVer == 7) && ( Machine == "e457.chtc.wisc.edu" ) || ( False
+initialdir = e457.chtc.wisc.edu
+queue
+
+requirements = True ) && (OpSysMajorVer == 6 || OpSysMajorVer == 7) && ( Machine == "e458.chtc.wisc.edu" ) || ( False
+initialdir = e458.chtc.wisc.edu
+queue
+
+requirements = True ) && (OpSysMajorVer == 6 || OpSysMajorVer == 7) && ( Machine == "e466.chtc.wisc.edu" ) || ( False
+initialdir = e466.chtc.wisc.edu
+queue
+
+requirements = True ) && (OpSysMajorVer == 6 || OpSysMajorVer == 7) && ( Machine == "e467.chtc.wisc.edu" ) || ( False
+initialdir = e467.chtc.wisc.edu
+queue
+
+requirements = True ) && (OpSysMajorVer == 6 || OpSysMajorVer == 7) && ( Machine == "loewe-1.chtc.wisc.edu" ) || ( False
+initialdir = loewe-1.chtc.wisc.edu
+queue
+
+requirements = True ) && (OpSysMajorVer == 6 || OpSysMajorVer == 7) && ( Machine == "loewe-2.chtc.wisc.edu" ) || ( False
+initialdir = loewe-2.chtc.wisc.edu
+queue
+

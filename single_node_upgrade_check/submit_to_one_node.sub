@@ -1,0 +1,14 @@
+job                     = job.sh
+universe                = vanilla
+should_transfer_files   = YES
+executable              = $(job)
+when_to_transfer_output = ON_EXIT
+output                  = out
+log                     = log
+
++IsDataTransferJob      = True
+
+requirements = True ) && ( Machine == "e111.chtc.wisc.edu" && split(Target.CondorVersion)[1] == "8.7.2" && split(Target.CondorVersion)[6] == "407060"  && OpSysMajorVer == 7) || ( False
+initialdir = e111.chtc.wisc.edu
+queue
+
