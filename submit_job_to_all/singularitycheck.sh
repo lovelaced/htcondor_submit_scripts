@@ -1,5 +1,7 @@
 #!/bin/bash
-#/usr/bin/singularity --verbose --debug exec --bind /cvmfs --bind $pwd:/srv --pwd /srv --scratch /var/tmp --scratch /tmp --containall /cvmfs/singularity.opensciencegrid.org/rynge/osgvo:el6 echo "Hello World" | grep "Hello World"
+
+# Attempt at running a Hello World in singularity
+
 mkdir -p /var/lib/condor/singularity_test
 chown $OSG_USER: /var/lib/condor/singularity_test
 su - $OSG_USER

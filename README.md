@@ -1,0 +1,5 @@
+single_node_upgrade_check is to be submitted before a single node is upgraded to make sure htcondor is functioning correctly after the upgrade. The file one_node.sub should be edited with the correct hostname and htcondor version.
+
+wid_upgrade contains scripts and helper files that aid in the automated submit file generation and submission of jobs to every node in the WID datacenter. The only script that should be run in this directory is condor_upgrade_wid.sh. The script will prompt you for a major version (i.e. 8.7.2) and a minr version (i.e. 498751), then create a submit file and submit one job to each node in WID. The job executable is specified in the job.sh script.
+
+submit_to_all_nodes is a collection of scripts that may be useful to submitting to each node in the pool, along with an automated way to do so. To generate the submit file, run submit_to_all.sh. For safety, then do a manual condor_submit submit_to_all.sub. The executable should be changed to whatever job is needed to run on each node. 
